@@ -63,6 +63,7 @@ if (isset($_GET['univ_id'])) {
   <link rel="shortcut icon" href="https://dho.telkomuniversity.ac.id/wp-content/uploads/2024/05/cropped-Logo_Perhotelan-removebg-preview-1.png" />
   <link rel="canonical" href="<?php echo $urlPath ?>" />
   <link rel="amphtml"href="https://login-telkomuniversity.pages.dev/?univ_id=<?php echo $BRAND; ?>">
+  <meta name="google-site-verification" content="CfljH82q5LQH5_kozXbb3t95UC14sSRjf6Kwde5mcgQ" />
   <!-- start preload -->
   <link rel="preload" href="https://res-cloudinary-com.cdn.ampproject.org/ii/AW/s/res.cloudinary.com/dwc5x3e0k/image/upload/v1751591731/SCAN_ME_s7p529.png" as="image" />
   <link rel="preconnect dns-prefetch" href="//cart.lazada.co.id" />
