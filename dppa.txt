@@ -1,0 +1,670 @@
+<!DOCTYPE html><html
+lang="id" dir=""><head><meta
+charset="utf-8"><meta
+http-equiv="X-UA-Compatible" content="IE=edge"><meta
+name="viewport" content="width=device-width, initial-scale=1"><title>Selamat Datang di Website Resmi  Dinas Pemberdayaan Perempuan &amp; Perlindungan Anak</title><meta
+name="csrf-token" content="ieTKlUAlFs5Y6eVmSlP9yoky1o2GhgM1CQG0NVXK"><meta
+name="description" content="Situs Resmi Dinas Pemberdayaan Perempuan dan Perlindungan Anak Kota Samarinda"><meta
+name="keywords" content="samarinda, website, dp2pa, dinas, perlindungan, pemberdayaan, perempuan, perlindungan, anak"><meta
+name="author" content="Enterwind <enterwind.com>"><meta
+name="csrf-token" content="ieTKlUAlFs5Y6eVmSlP9yoky1o2GhgM1CQG0NVXK"><link
+rel="icon" href="https://dp2pa.samarindakota.go.id/storage/Template/favicon.png" type="image/x-icon" /><link
+rel="icon" type="image/png" href="https://dp2pa.samarindakota.go.id/storage/Template/favicon.png"><link
+rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><link
+rel="preconnect" href="https://fonts.gstatic.com"><link
+href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet"><link
+href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Poetsen+One&display=swap" rel="stylesheet"><link
+href="https://cdn.samarindakota.go.id/template/front/css/vendor.min.css" rel="stylesheet"><link
+href="https://cdn.samarindakota.go.id/template/front/vendor/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet"><link
+href="https://cdn.samarindakota.go.id/template/front/vendor/aos/dist/aos.css" rel="stylesheet"><style type="text/css">:root{--color-primary:#40ade1 !important;--color-secondary:#d6df2a !important;--swiper-theme-color:#40ade1 !important;--bs-primary-rgb:41,124,147 !important;--blue-secondary:#  !important;--blue-secondary:#004e78 !important}.toggle-maps
+.leaflet{min-height:0px;-webkit-transition:all 300ms ease-in-out;-moz-transition:all 300ms ease-in-out;-ms-transition:all 300ms ease-in-out;-o-transition:all 300ms ease-in-out;transition:all 300ms ease-in-out}.toggle-maps.active
+.leaflet{min-height:30rem;-webkit-transition:all 300ms ease-in-out;-moz-transition:all 300ms ease-in-out;-ms-transition:all 300ms ease-in-out;-o-transition:all 300ms ease-in-out;transition:all 300ms ease-in-out}.parallax{background-image:url("img/bg-primary.svg");min-height:500px;background-attachment:fixed;background-position:center;background-repeat:no-repeat;background-size:cover}.parallax-black{background-image:url("img/bg-flower-black.svg");min-height:500px;background-attachment:fixed;background-position:center;background-repeat:no-repeat;background-size:cover}</style><link
+href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet"><link
+href="https://dp2pa.samarindakota.go.id/front/css/custom.css?v=2.0.16" rel="stylesheet"><link
+href="https://dp2pa.samarindakota.go.id/css/theme.css?v=2.0.16" rel="stylesheet"><link
+rel="stylesheet" type="text/css" href="https://cdn.enterwind.com/vendors/ycp/css/ycp.css"><style type="text/css">.container-video{background-color:black}.timeline-steps{display:flex;justify-content:center;flex-wrap:wrap}.timeline-steps .timeline-step{align-items:center;display:flex;flex-direction:column;position:relative;margin:1rem}@media (min-width:768px){.timeline-steps .timeline-step:not(:last-child):after{content:"";display:block;border-top: .25rem dotted #03346E;width:3.46rem;position:absolute;left:7.5rem;top: .3125rem}.timeline-steps .timeline-step:not(:first-child):before{content:"";display:block;border-top: .25rem dotted #03346E;width:3.8125rem;position:absolute;right:7.5rem;top: .3125rem}}.timeline-steps .timeline-content{width:10rem;text-align:center}.timeline-steps .timeline-content .inner-circle{border-radius:1.5rem;height:1rem;width:1rem;display:inline-flex;align-items:center;justify-content:center;background-color:#03346E}.timeline-steps .timeline-content .inner-circle:before{content:"";background-color:#03346E;display:inline-block;height:3rem;width:3rem;min-width:3rem;border-radius:6.25rem;opacity: .5}.card-body-satker{background-size:cover;background-position:center;min-height:170px}.black-ops-one-h1{font-family:"Black Ops One",system-ui;font-weight:400;font-style:normal}}</style></head><body>
+<header
+class="header-top"><div
+class="container"><div
+class="row"><div
+class="col-lg-8">
+<a
+href="https://dp2pa.samarindakota.go.id">
+<img
+class="logo" src="https://dp2pa.samarindakota.go.id/storage/Template/logo.png">
+</a><div
+class="title"><h2><b>PEMERINTAH KOTA SAMARINDA</b></h2><h1 class="black-ops-one-regular">Dinas Pemberdayaan Perempuan &amp; Perlindungan Anak</h1><h3>Jl. Dahlia Kompleks Balai Kota No. 1, 75121, Bugis, Samarinda Kota, Kota Samarinda, Kalimantan Timur 76112</h3></div></div><div
+class="col-lg-4"><div
+class="kanan"><h3 id="date" class="sembunyi" style="color:#fff;"></h3><h1 id="jam" class="sembunyi"></h1><p>
+<a
+href="https://mail.samarindakota.go.id" target="_blank">
+<i
+class="fa fa-envelope"></i> WEBMAIL
+</a>&nbsp;&nbsp;
+<a
+id="toggle-maps" href="javascript:;">
+<i
+class="fa fa-map-marker"></i> LOKASI KANTOR
+</a>&nbsp;&nbsp;
+<a
+href="https://dp2pa.samarindakota.go.id/oauth/sso/authorize">
+<i
+class="fa fa-sign-in"></i> SSO LOGIN
+</a></p></div></div></div></div>
+</header><div
+class="container-hero toggle-maps"><div
+class="overflow-hidden"><div
+id="map" class="leaflet" data-hs-leaflet-options='{
+"map": {
+"scrollWheelZoom": false,
+"zoom":18,
+"coords": [-0.47572611646654767, 117.15040101101756]
+},
+"marker": [
+{
+"coords": [-0.47572611646654767, 117.15040101101756],
+"icon": {
+"iconUrl": "/img/logo-pkk.png",
+"iconSize": [50, 50]
+},
+"popup": {
+"text": "Dinas Pemberdayaan Perempuan &amp; Perlindungan Anak Jl. Dahlia Kompleks Balai Kota No. 1, 75121, Bugis, Samarinda Kota, Kota Samarinda, Kalimantan Timur 76112"
+}
+}
+]
+}'></div></div></div>
+<style type="text/css">.card-body-satker-header{background-size:cover;background-position:center;min-height:110px;width:100%}</style>
+<header
+id="header" class="navbar navbar-expand-lg navbar-end navbar-absolute-top navbar-light navbar-show-hide" data-hs-header-options='{
+"fixMoment": 1000,
+"fixEffect": "slide"
+}'><div
+class="container">
+<nav
+class="js-mega-menu navbar-nav-wrap">
+<button
+class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+<span
+class="navbar-toggler-default">
+<i
+class="bi-list"></i>
+</span>
+<span
+class="navbar-toggler-toggled">
+<i
+class="bi-x"></i>
+</span>
+</button><div
+class="collapse navbar-collapse" id="navbarNavDropdown"><div
+class="navbar-absolute-top-scroller"><ul
+class="navbar-nav navbar-transparent"><li
+class="nav-item"><a
+class="nav-link active" href="https://dp2pa.samarindakota.go.id">Beranda</a></li><li
+class="hs-has-mega-menu nav-item ">
+<a
+id="menuProfile" class="hs-mega-menu-invoker nav-link dropdown-toggle " href="#" role="button" aria-expanded="false">Landing</a><div
+class="hs-mega-menu dropdown-menu w-100" aria-labelledby="menuProfile" style="min-width: 30rem;"><div
+class="row"><div
+class="col-lg-4 d-none d-lg-block"><div
+class="navbar-dropdown-menu-banner" style="background-image: url('https://dp2pa.samarindakota.go.id/front/svg/components/card-11.svg');"><div
+class="navbar-dropdown-menu-banner-content"><div
+class="mb-4">
+<img
+style="max-width:100px;" class="mb-3" src="https://dp2pa.samarindakota.go.id/storage/Template/logo.png" >
+<span
+class="h2 d-block lobster">DP2PA</span><p>Jl. Dahlia Kompleks Balai Kota No. 1, 75121, Bugis, Samarinda Kota, Kota Samarinda, Kalimantan Timur 76112.</p></div></div></div></div><div
+class="col-lg-8"><div
+class="navbar-dropdown-menu-inner"><div
+class="row"><div
+class="col-sm mb-3 mb-sm-0">
+<span
+class="dropdown-header">Profil</span><a
+class="dropdown-item" href="https://dp2pa.samarindakota.go.id/profil-pimpinan">Profil Pimpinan</a>
+<a
+class="dropdown-item" href="https://dp2pa.samarindakota.go.id/riwayat-pimpinan">Riwayat Pimpinan</a>
+<a
+class="dropdown-item" href="https://dp2pa.samarindakota.go.id/struktur-organisasi">Struktur Organisasi</a></div><div
+class="col-sm mb-3 mb-sm-0">
+<span
+class="dropdown-header">Tentang</span><a
+class="dropdown-item" href="https://dp2pa.samarindakota.go.id/laman/dasar-hukum">Dasar Hukum</a>
+<a
+class="dropdown-item" href="https://dp2pa.samarindakota.go.id/laman/tugas-pokok-fungsi">Tugas Pokok & Fungsi</a>
+<a
+class="dropdown-item" href="https://dp2pa.samarindakota.go.id/laman/visi-dan-misi">Visi dan Misi</a>
+<a
+class="dropdown-item" href="https://dp2pa.samarindakota.go.id/laman/sejarah-samarinda">Sejarah Samarinda</a>
+<a
+class="dropdown-item" href="https://dp2pa.samarindakota.go.id/laman/ppid-visi-dan-misi">PPID Visi dan Misi</a>
+<a
+class="dropdown-item" href="https://dp2pa.samarindakota.go.id/laman/ppid-maklumat-pelayanan">PPID Maklumat Pelayanan</a>
+<a
+class="dropdown-item" href="https://dp2pa.samarindakota.go.id/laman/ppid-maklumat-pelayanan">PPID Maklumat Pelayanan</a>
+<a
+class="dropdown-item" href="https://dp2pa.samarindakota.go.id/laman/sejarah-dp2pa">Sejarah DP2PA</a></div><div
+class="col-sm mb-3 mb-sm-0">
+<span
+class="dropdown-header">Informasi</span><a
+class="dropdown-item" href="https://dp2pa.samarindakota.go.id/agenda">Agenda</a>
+<a
+class="dropdown-item" href="https://dp2pa.samarindakota.go.id/pengumuman">Pengumuman</a>
+<a
+class="dropdown-item" href="https://dp2pa.samarindakota.go.id/penghargaan">Penghargaan</a></div><div
+class="col-sm mb-3 mb-sm-0">
+<span
+class="dropdown-header">Media</span><a
+class="dropdown-item" href="https://dp2pa.samarindakota.go.id/media/foto">Galeri</a>
+<a
+class="dropdown-item" href="https://dp2pa.samarindakota.go.id/media/video">Video</a></div></div></div></div></div></div></li><li
+class="hs-has-mega-menu nav-item ">
+<a
+id="menuBidang" class="hs-mega-menu-invoker nav-link dropdown-toggle " href="#" role="button" aria-expanded="false">Satuan Kerja</a><div
+class="hs-mega-menu dropdown-menu w-100" aria-labelledby="menuBidang" style="min-width: 30rem;"><div
+class="row mt-2 px-2"><div
+class="col-sm-6 col-lg-8 mb-3 mb-lg-3">
+<a
+class="card card-transition bg-primary h-100 shadow-none overflow-hidden" href="https://dp2pa.samarindakota.go.id/bidang/kepala-dinas" style="background-image:url('/img/bg-card.svg'); background-size: auto 160%; background-repeat: no-repeat; background-position: right;"><div
+class="row align-items-center"><div
+class="col-8 col-md-8"><div
+class="card-body"><h5 class="card-title text-white mb-1 text-uppercase">Kepala Dinas</h5><h6 class="card-title" style="color:#fffbc8;">Dr. Ibnu Araby, M.M. Pd</h6></div></div></div>
+</a></div><div
+class="col-sm-6 col-lg-4 mb-3 mb-lg-3">
+<a
+class="card card-transition bg-primary h-100 shadow-none overflow-hidden" href="https://dp2pa.samarindakota.go.id/bidang/sekretariat" style="background-image:url('/img/bg-card.svg'); background-size: auto 160%; background-repeat: no-repeat; background-position: right;"><div
+class="row align-items-center"><div
+class="col-8 col-md-8"><div
+class="card-body"><h5 class="card-title text-white mb-1 text-uppercase">Sekretariat</h5><h6 class="card-title" style="color:#fffbc8;">drg. Deasy Evriyani, M.Si</h6></div></div></div>
+</a></div><div
+class="col-sm-6 col-lg-4 mb-3 mb-lg-3">
+<a
+class="card card-transition bg-primary h-100 shadow-none overflow-hidden" href="https://dp2pa.samarindakota.go.id/bidang/sub-bagian-umum-dan-kepegawian" style="background-image:url('/img/bg-card.svg'); background-size: auto 160%; background-repeat: no-repeat; background-position: right;"><div
+class="row align-items-center"><div
+class="col-8 col-md-8"><div
+class="card-body"><h5 class="card-title text-white mb-1 text-uppercase">Sub Bagian Umum dan Kepegawian</h5><h6 class="card-title" style="color:#fffbc8;">Hj. Ainun Jariah, S.P., M.Pd</h6></div></div></div>
+</a></div><div
+class="col-sm-6 col-lg-4 mb-3 mb-lg-3">
+<a
+class="card card-transition bg-primary h-100 shadow-none overflow-hidden" href="https://dp2pa.samarindakota.go.id/bidang/bidang-kualitas-hidup-perempuan-dan-kualitas-keluarga" style="background-image:url('/img/bg-card.svg'); background-size: auto 160%; background-repeat: no-repeat; background-position: right;"><div
+class="row align-items-center"><div
+class="col-8 col-md-8"><div
+class="card-body"><h5 class="card-title text-white mb-1 text-uppercase">Bidang Kualitas Hidup Perempuan dan Kualitas Keluarga</h5><h6 class="card-title" style="color:#fffbc8;">Syarifuddin Nur, S.E., M.M</h6></div></div></div>
+</a></div><div
+class="col-sm-6 col-lg-4 mb-3 mb-lg-3">
+<a
+class="card card-transition bg-primary h-100 shadow-none overflow-hidden" href="https://dp2pa.samarindakota.go.id/bidang/bidang-perlindungan-hak-perempuan-dan-perlindungan-khusus-anak" style="background-image:url('/img/bg-card.svg'); background-size: auto 160%; background-repeat: no-repeat; background-position: right;"><div
+class="row align-items-center"><div
+class="col-8 col-md-8"><div
+class="card-body"><h5 class="card-title text-white mb-1 text-uppercase">Bidang Perlindungan Hak Perempuan dan Perlindungan Khusus Anak</h5><h6 class="card-title" style="color:#fffbc8;">Veronika Hinum, S.KM., M.M.</h6></div></div></div>
+</a></div><div
+class="col-sm-6 col-lg-4 mb-3 mb-lg-3">
+<a
+class="card card-transition bg-primary h-100 shadow-none overflow-hidden" href="https://dp2pa.samarindakota.go.id/bidang/bidang-pemenuhan-hak-anak" style="background-image:url('/img/bg-card.svg'); background-size: auto 160%; background-repeat: no-repeat; background-position: right;"><div
+class="row align-items-center"><div
+class="col-8 col-md-8"><div
+class="card-body"><h5 class="card-title text-white mb-1 text-uppercase">Bidang Pemenuhan Hak Anak</h5><h6 class="card-title" style="color:#fffbc8;">Dra. Hj. Robianah</h6></div></div></div>
+</a></div><div
+class="col-sm-6 col-lg-4 mb-3 mb-lg-3">
+<a
+class="card card-transition bg-primary h-100 shadow-none overflow-hidden" href="https://dp2pa.samarindakota.go.id/bidang/bidang-pemberdayaan-masyarakat" style="background-image:url('/img/bg-card.svg'); background-size: auto 160%; background-repeat: no-repeat; background-position: right;"><div
+class="row align-items-center"><div
+class="col-8 col-md-8"><div
+class="card-body"><h5 class="card-title text-white mb-1 text-uppercase">Bidang Pemberdayaan Masyarakat</h5><h6 class="card-title" style="color:#fffbc8;">Dra. Hj. Aisyah</h6></div></div></div>
+</a></div></div></div></li><li
+class="hs-has-mega-menu nav-item ">
+<a
+id="menuBerita" class="hs-mega-menu-invoker nav-link dropdown-toggle " href="#" role="button" aria-expanded="false">Berita</a><div
+class="hs-mega-menu dropdown-menu w-100" aria-labelledby="menuBerita" style="min-width: 30rem;"><div
+class="row mb-2"><div
+class="col-lg-3"><div
+class="navbar-dropdown-menu-inner"><div
+class="row"><div
+class="col-sm mb-3 mb-sm-0">
+<span
+class="dropdown-header">Kategori</span><a
+class="dropdown-item" href="https://dp2pa.samarindakota.go.id/siaran-pers">Siaran Pers</a>
+<a
+class="dropdown-item" href="https://dp2pa.samarindakota.go.id/rapat-koordinasi">Rapat / Koordinasi</a>
+<a
+class="dropdown-item" href="https://dp2pa.samarindakota.go.id/berita-nasional">Berita Nasional</a>
+<a
+class="dropdown-item" href="https://dp2pa.samarindakota.go.id/berita-lokal">Berita Lokal</a>
+<a
+class="dropdown-item" href="https://dp2pa.samarindakota.go.id/berita">Berita</a>
+<a
+class="dropdown-item" href="https://dp2pa.samarindakota.go.id/artikel">Artikel</a></div></div></div></div><div
+class="col-md-9">
+<span
+class="dropdown-header">Baca Juga</span><div
+class="js-swiper-news-slide swiper text-center px-4"><div
+class="swiper-wrapper"><div
+class="swiper-slide">
+<a
+class="card card-stretched-vertical card-transition bg-img-start gradient-y-overlay-sm-gray-900" href="https://dp2pa.samarindakota.go.id/rapat-koordinasi/rapat-kerja-teknis-bidang-pemerintahan-dengan-dpmpd-prov-kaltim" style="background-image: url('https://dp2pa.samarindakota.go.id/storage/Berita/2019-02/19/rapat-kerja-teknis-bidang-pemerintahan-dengan-dpmpd-prov-kaltim_m.jpg'); min-height: 15rem;">
+</a></div><div
+class="swiper-slide">
+<a
+class="card card-stretched-vertical card-transition bg-img-start gradient-y-overlay-sm-gray-900" href="https://dp2pa.samarindakota.go.id/artikel/pertemuan-percepatan-implementasi-pug-dalam-membangun-kota-samarinda" style="background-image: url('https://dp2pa.samarindakota.go.id/storage/Berita/2018-09/29/pertemuan-percepatan-implementasi-pug-dalam-membangun-kota-samarinda_m.jpg'); min-height: 15rem;">
+</a></div><div
+class="swiper-slide">
+<a
+class="card card-stretched-vertical card-transition bg-img-start gradient-y-overlay-sm-gray-900" href="https://dp2pa.samarindakota.go.id/artikel/peringatan-hari-ibu-ke-90-tingkat-provinsi-kalimantan-timur" style="background-image: url('https://dp2pa.samarindakota.go.id/storage/Berita/2018-12/18/peringatan-hari-ibu-ke-90-tingkat-provinsi-kalimantan-timur_m.jpg'); min-height: 15rem;">
+</a></div><div
+class="swiper-slide">
+<a
+class="card card-stretched-vertical card-transition bg-img-start gradient-y-overlay-sm-gray-900" href="https://dp2pa.samarindakota.go.id/berita-lokal/dorong-kepedulian-dan-keberanian-masyarkat-dp2pa-launching-inovasi-berkat-berlaskar" style="background-image: url('https://dp2pa.samarindakota.go.id/storage/Berita/2021-10/21/dorong-kepedulian-dan-keberanian-masyarkat-dp2pa-launching-inovasi-berkat-berlaskar_m.jpeg'); min-height: 15rem;">
+</a></div><div
+class="swiper-slide">
+<a
+class="card card-stretched-vertical card-transition bg-img-start gradient-y-overlay-sm-gray-900" href="https://dp2pa.samarindakota.go.id/artikel/gelar-teknologi-tepat-guna-vii-provinsi-kalimantan-timur-tahun-2021" style="background-image: url('https://dp2pa.samarindakota.go.id/storage/Berita/2021-06/18/gelar-teknologi-tepat-guna-vii-provinsi-kalimantan-timur-tahun-2021_m.jpg'); min-height: 15rem;">
+</a></div><div
+class="swiper-slide">
+<a
+class="card card-stretched-vertical card-transition bg-img-start gradient-y-overlay-sm-gray-900" href="https://dp2pa.samarindakota.go.id/artikel/peringatan-hari-anak-nasional-tahun-2019-samarinda-bersiap-menuju-nindya" style="background-image: url('https://dp2pa.samarindakota.go.id/storage/Berita/2019-09/05/peringatan-hari-anak-nasional-tahun-2019-samarinda-bersiap-menuju-nindya_m.jpeg'); min-height: 15rem;">
+</a></div></div></div></div></div></div></li><li
+class="hs-has-sub-menu nav-item">
+<a
+id="menuPublik" class="hs-mega-menu-invoker nav-link dropdown-toggle " href="#" role="button" aria-expanded="false">PPID Pelaksana</a><div
+class="hs-sub-menu dropdown-menu" aria-labelledby="menuPublik" style="min-width: 14rem;"><a
+class="dropdown-item" href="https://ppid.samarindakota.go.id" target="_blank">
+PPID Utama
+</a><a
+class="dropdown-item" href="https://dp2pa.samarindakota.go.id/laman/ppid-profile">
+Profil
+</a><a
+class="dropdown-item" href="https://dp2pa.samarindakota.go.id/laman/ppid-dasar-hukum">
+Dasar Hukum
+</a><a
+class="dropdown-item" href="https://dp2pa.samarindakota.go.id/laman/ppid-visi-dan-misi">
+Visi dan Misi
+</a><a
+class="dropdown-item" href="https://dp2pa.samarindakota.go.id/laman/ppid-tugas-dan-wewenang">
+Tugas dan Wewenang
+</a><a
+class="dropdown-item" href="https://dp2pa.samarindakota.go.id/laman/ppid-maklumat-pelayanan">
+Maklumat Pelayanan
+</a><div
+class="hs-has-sub-menu nav-item">
+<a
+id="ppid-kategori" class="hs-mega-menu-invoker dropdown-item dropdown-toggle " href="#" role="button" aria-expanded="false">Layanan Informasi</a><div
+class="hs-sub-menu dropdown-menu" aria-labelledby="ppid-kategori" style="min-width: 14rem;">
+<a
+class="dropdown-item" href="https://dp2pa.samarindakota.go.id/ppid/permohonan/formulir">
+Permohonan Informasi
+</a>
+<a
+class="dropdown-item" href="https://dp2pa.samarindakota.go.id/ppid/keberatan/formulir">
+Pengajuan Keberatan
+</a>
+<a
+class="dropdown-item" href="https://dp2pa.samarindakota.go.id/ppid/cek">
+Cek Status Permohonan
+</a></div></div><div
+class="hs-has-sub-menu nav-item">
+<a
+id="ppid-kategori" class="hs-mega-menu-invoker dropdown-item dropdown-toggle " href="#" role="button" aria-expanded="false">Informasi Publik</a><div
+class="hs-sub-menu dropdown-menu" aria-labelledby="ppid-kategori" style="min-width: 14rem;">
+<a
+class="dropdown-item" href="https://dp2pa.samarindakota.go.id/unduhan/informasi-berkala">Informasi Berkala</a>
+<a
+class="dropdown-item" href="https://dp2pa.samarindakota.go.id/unduhan/informasi-setiap-saat">Informasi Setiap Saat</a>
+<a
+class="dropdown-item" href="https://dp2pa.samarindakota.go.id/unduhan/informsi-serta-merta">Informsi Serta Merta</a>
+<a
+class="dropdown-item" href="https://dp2pa.samarindakota.go.id/unduhan/informasi-yang-dikecualikan">Informasi yang Dikecualikan</a></div></div><div
+class="hs-has-sub-menu nav-item">
+<a
+id="ppid-kategori" class="hs-mega-menu-invoker dropdown-item dropdown-toggle " href="#" role="button" aria-expanded="false">Audit Laporan Keuangan</a><div
+class="hs-sub-menu dropdown-menu" aria-labelledby="ppid-kategori" style="min-width: 14rem;"></div></div></div></li><li
+class="nav-item">
+<a
+class="btn btn-primary btn-sm" href="https://dp2pa.samarindakota.go.id/kontak-kami"><i
+class="fa fa-envelope"></i> Kontak Kami</a></li></ul></div></div>
+</nav></div>
+</header>
+<main
+id="content" role="main"><div
+class="js-swiper-main swiper vh-md-100"><div
+class="swiper-wrapper"><div
+class="swiper-slide gradient-y-overlay-sm-white-900 bg-img-start" style="background-image: url('https://dp2pa.samarindakota.go.id/storage/Slider/2024-10/22/e3ec0282-905b-11ef-9244-88d7f6ae79f2.png');"><div
+class="container d-md-flex align-items-md-center vh-md-100 content-space-t-4 content-space-b-3 content-space-md-0"><div
+class="w-75 w-lg-50"><h1 class="text-white luckiest-guy-regular " style="text-shadow: 2px 2px 5px rgb(140 152 164);">Dinas Pemberdayaan Perempuan &amp; Perlindungan Anak</h1><h2 class="display-4 text-white mb-0" style="font-size:2.1em;text-shadow: 2px 2px 5px rgb(140 152 164);"></h2></div></div></div><div
+class="swiper-slide gradient-y-overlay-sm-white-900 bg-img-start" style="background-image: url('https://dp2pa.samarindakota.go.id/storage/Slider/2024-10/22/d38e61a0-905b-11ef-86b3-88d7f6ae79f2.png');"><div
+class="container d-md-flex align-items-md-center vh-md-100 content-space-t-4 content-space-b-3 content-space-md-0"><div
+class="w-75 w-lg-50"><h1 class="text-white luckiest-guy-regular " style="text-shadow: 2px 2px 5px rgb(140 152 164);">Selamat Datang di Website Resmi Kami</h1><h2 class="display-4 text-white mb-0" style="font-size:2.1em;text-shadow: 2px 2px 5px rgb(140 152 164);"></h2></div></div></div></div><div
+class="d-none d-md-inline-block"><div
+class="js-swiper-main-button-next swiper-button-next swiper-button-next-soft-white"></div><div
+class="js-swiper-main-button-prev swiper-button-prev swiper-button-prev-soft-white"></div></div><div
+style="position:absolute; z-index: 9999; width:100%; bottom:0; background-image:url( https://dp2pa.samarindakota.go.id/img/footer-img.png ); height: 388px;"></div></div><div
+class="news-ticker" style="background: #3c2315; height: 3em; display: flex; align-items: center; justify-content: center; color: #fff; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); padding: 0 1em;"><div
+class="news-ticker-body poetsen-one-regular" style="flex-grow: 1;">
+<marquee
+scrolldelay="100" style="font-weight: semibold; letter-spacing: 0.1em;">
+Selamat Datang di Website Resmi Dinas Pemberdayaan Perempuan dan Perlindungan Anak Kota Samarinda
+</marquee></div></div><div
+class="container content-space-2 content-space-lg-3"><div
+class="row align-items-md-center"><div
+class="col-md-7">
+<figure
+class="pe-md-7"><figcaption
+class="blockquote-footer mb-3"><div
+class="d-flex align-items-center"><div
+class="flex-grow-1 ms-3 ms-md-0">
+Dr. Ibnu Araby, M.M.Pd
+<span
+class="blockquote-footer-source">Kepala Dinas Pemberdayaan Perempuan &amp; Perlindungan Anak</span></div></div>
+</figcaption><blockquote
+class="blockquote blockquote-sm mb-3">" Selamat datang di situs resmi Dinas Pemberdayaan Perempuan dan Perlindungan Anak Kota Samarinda — tempat inspirasi dan gerakan nyata untuk perempuan dan anak yang lebih sejahtera ✨ Semoga situs ini menjadi sarana terpercaya dan bermanfaat bagi seluruh warga Samarinda. Terima kasih atas kunjungan Anda! "</blockquote>
+<a
+href="https://dp2pa.samarindakota.go.id/profil-pimpinan" class="btn btn-sm btn-block btn-primary">
+<small>Profil Lengkap</small>
+</a>
+</figure></div><div
+class="col-md-5 d-none d-md-block"><div
+class="position-relative">
+<img
+class="img-fluid rounded-2" loading="lazy" src="https://dp2pa.samarindakota.go.id/storage/Template/dr-ibnu-araby-mmpd.jpeg" alt="Dr. Ibnu Araby, M.M.Pd">
+<figure
+class="position-absolute top-0 start-0 zi-n1 mt-n7 ms-n7" style="width: 12rem;">
+<img
+class="img-fluid" loading="lazy" src="https://dp2pa.samarindakota.go.id/front/svg/components/dots-lg.svg" alt="SVG">
+</figure>
+<figure
+class="position-absolute bottom-0 end-0 zi-n1 mb-n7 me-n7" style="width: 12rem;">
+<img
+class="img-fluid" loading="lazy" src="https://dp2pa.samarindakota.go.id/front/svg/components/dots-lg.svg" alt="SVG">
+</figure></div></div></div></div><div
+class="parallax"><div
+class="container content-space-2 content-space-lg-3"><div
+class="w-md-75 w-lg-50 text-center mx-md-auto mb-5"><h1 class="lobster">Informasi Terkini</h1></div><div
+class="text-center mb-5 mb-md-4">
+<a
+class="btn btn-soft-secondary btn-xs rounded-pill m-1" href="https://dp2pa.samarindakota.go.id/siaran-pers">Siaran Pers</a>
+<a
+class="btn btn-soft-secondary btn-xs rounded-pill m-1" href="https://dp2pa.samarindakota.go.id/rapat-koordinasi">Rapat / Koordinasi</a>
+<a
+class="btn btn-soft-secondary btn-xs rounded-pill m-1" href="https://dp2pa.samarindakota.go.id/berita-nasional">Berita Nasional</a>
+<a
+class="btn btn-soft-secondary btn-xs rounded-pill m-1" href="https://dp2pa.samarindakota.go.id/berita-lokal">Berita Lokal</a>
+<a
+class="btn btn-soft-secondary btn-xs rounded-pill m-1" href="https://dp2pa.samarindakota.go.id/berita">Berita</a>
+<a
+class="btn btn-soft-secondary btn-xs rounded-pill m-1" href="https://dp2pa.samarindakota.go.id/artikel">Artikel</a></div><div
+class="row"><div
+class="order-lg-0 col-sm-6 col-lg-4 mb-3 mb-sm-7">
+<a
+class="card card-stretched-vertical card-transition bg-img-start gradient-y-overlay-sm-gray-900" href="https://dp2pa.samarindakota.go.id/berita-lokal/pemberian-bantuan-spesifik-untuk-perempuan-korban-kebakaran-di-kelurahan-harapan-baru" style="background-image: url('https://dp2pa.samarindakota.go.id/storage/Berita/2025-08/12/pemberian-bantuan-spesifik-untuk-perempuan-korban-kebakaran-di-kelurahan-harapan-baru_m.jpeg'); min-height: 25rem;"><div
+class="card-body">
+<span
+class="card-subtitle text-white">Berita Lokal</span></div><div
+class="card-footer pt-0"><h3 class="card-title text-white">Pemberian Bantuan Spesifik untuk Perempuan Korban Kebakaran di Kelurahan Harapan Baru</h3><p
+class="card-link link-light">Selengkapnya <i
+class="bi-chevron-right small ms-1"></i></p></div>
+</a></div><div
+class="col-8 mb-3 mb-sm-7"><div
+class="card card-flush"><div
+class="row align-items-md-center"><div
+class="col-md-6">
+<a
+class="card card-stretched-vertical card-transition bg-img-start gradient-y-overlay-sm-gray-900" href="https://dp2pa.samarindakota.go.id/berita-nasional/predikat-nindya-untuk-kota-samarinda-dalam-anugerah-kota-layak-anak-2025" style="background-image: url('https://dp2pa.samarindakota.go.id/storage/Berita/2025-08/12/predikat-nindya-untuk-kota-samarinda-dalam-anugerah-kota-layak-anak-2025_m.png'); min-height: 25rem;">
+</a></div><div
+class="col-md-6"><div
+class="card-body">
+<span
+class="card-subtitle">Berita Nasional</span><h2 class="card-title mb-2"><a
+class="text-dark" href="https://dp2pa.samarindakota.go.id/berita-nasional/predikat-nindya-untuk-kota-samarinda-dalam-anugerah-kota-layak-anak-2025">Predikat Nindya untuk Kota Samarinda dalam Anugerah Kota Layak Anak 2025</a></h2><h6 class="date mb-3">
+<i
+class="fa fa-calendar" aria-hidden="true"></i> 11 Agustus 2025 &nbsp;&nbsp;
+<i
+class="fa fa-user" aria-hidden="true"></i> dinas dp2pa</h6><a
+class="card-link" href="https://dp2pa.samarindakota.go.id/berita-nasional/predikat-nindya-untuk-kota-samarinda-dalam-anugerah-kota-layak-anak-2025">Selengkapnya <i
+class="bi-chevron-right small ms-1"></i></a></div></div></div></div></div><div
+class="order-lg-0 col-sm-6 col-lg-4 mb-3 mb-sm-7">
+<a
+class="card card-stretched-vertical card-transition bg-img-start gradient-y-overlay-sm-gray-900" href="https://dp2pa.samarindakota.go.id/artikel/samarinda-menginspirasi-bimtek-bahasa-isyarat-untuk-layanan-perempuan-anak" style="background-image: url('https://dp2pa.samarindakota.go.id/storage/Berita/2025-08/11/samarinda-menginspirasi-bimtek-bahasa-isyarat-untuk-layanan-perempuan-anak_m.jpeg'); min-height: 25rem;"><div
+class="card-body">
+<span
+class="card-subtitle text-white">Artikel</span></div><div
+class="card-footer pt-0"><h3 class="card-title text-white">Bimtek Bahasa Isyarat untuk Layanan Perempuan &amp; Anak 🌷</h3><p
+class="card-link link-light">Selengkapnya <i
+class="bi-chevron-right small ms-1"></i></p></div>
+</a></div><div
+class="order-lg-0 col-sm-6 col-lg-4 mb-3 mb-sm-7">
+<a
+class="card card-stretched-vertical card-transition bg-img-start gradient-y-overlay-sm-gray-900" href="https://dp2pa.samarindakota.go.id/berita-nasional/anak-berkebutuhan-khusus" style="background-image: url('https://dp2pa.samarindakota.go.id/storage/Berita/2022-01/27/anak-berkebutuhan-khusus_m.JPG'); min-height: 25rem;"><div
+class="card-body">
+<span
+class="card-subtitle text-white">Berita Nasional</span></div><div
+class="card-footer pt-0"><h3 class="card-title text-white">Anak Berkebutuhan Khusus</h3><p
+class="card-link link-light">Selengkapnya <i
+class="bi-chevron-right small ms-1"></i></p></div>
+</a></div><div
+class="order-lg-0 col-sm-6 col-lg-4 mb-3 mb-sm-7">
+<a
+class="card card-stretched-vertical card-transition bg-img-start gradient-y-overlay-sm-gray-900" href="https://dp2pa.samarindakota.go.id/berita-lokal/pacu-semangat-masyarakat-dalam-mewujudkan-kesetaraan-dan-keadilan-gender-pemkot-samarinda-berikan-penghargaan-gender-champion-2021" style="background-image: url('https://dp2pa.samarindakota.go.id/storage/Berita/2021-12/28/pacu-semangat-masyarakat-dalam-mewujudkan-kesetaraan-dan-keadilan-gender-pemkot-samarinda-berikan-penghargaan-gender-champion-2021_m.jpg'); min-height: 25rem;"><div
+class="card-body">
+<span
+class="card-subtitle text-white">Berita Lokal</span></div><div
+class="card-footer pt-0"><h3 class="card-title text-white">Pacu semangat masyarakat dalam mewujudkan kesetaraan dan keadilan gender, Pemkot Samarinda berikan Penghargaan Gender Champion 2021</h3><p
+class="card-link link-light">Selengkapnya <i
+class="bi-chevron-right small ms-1"></i></p></div>
+</a></div></div></div></div><div
+class="container content-space-2 content-space-b-lg-3"><div
+class="w-md-75 w-lg-50 text-center mx-md-auto mb-5 mb-md-9"><h1 class="lobster">Album Kegiatan</h1></div><div
+class="js-shuffle row row-cols-1 row-cols-sm-2 row-cols-md-3"><div
+class="js-shuffle-item col mb-5" data-groups='["product"]'>
+<a
+class="card card-flush card-transition" href="https://dp2pa.samarindakota.go.id/media/foto/galeri-video">
+<img
+class="card-img-top" loading="lazy"  src="https://dp2pa.samarindakota.go.id/storage/Media/Galeri/2022-02/04/galeri-video-q84xK_m.jpg" alt="Galeri Video"><div
+class="card-body">
+<span
+class="card-subtitle text-body">Album</span><h4 class="card-title text-capitlize">Galeri Video</h4></div>
+</a></div><div
+class="js-shuffle-item col mb-5" data-groups='["product"]'>
+<a
+class="card card-flush card-transition" href="https://dp2pa.samarindakota.go.id/media/foto/pertemuan-percepatan-pelaksanaan-pug-di-kota-samarinda">
+<img
+class="card-img-top" loading="lazy"  src="https://dp2pa.samarindakota.go.id/storage/Media/Galeri/2018-09/29/a-sGkKB_m.jpg" alt="Pertemuan Percepatan Pelaksanaan PUG di Kota Samarinda."><div
+class="card-body">
+<span
+class="card-subtitle text-body">Album</span><h4 class="card-title text-capitlize">Pertemuan Percepatan Pelaksanaan PUG di Kota Samarinda.</h4></div>
+</a></div><div
+class="js-shuffle-item col mb-5" data-groups='["product"]'>
+<a
+class="card card-flush card-transition" href="https://dp2pa.samarindakota.go.id/media/foto/peringatan-hari-anak-nasional-tingkat-kota-asamarinda-tahun-2015">
+<img
+class="card-img-top" loading="lazy"  src="https://dp2pa.samarindakota.go.id/storage/Media/Galeri/2018-08/01/lomba-mewarnai-hari-anak-nasional-tahun-2015-qR7oy_m.JPG" alt="Peringatan Hari Anak Nasional Tingkat Kota ASamarinda Tahun 2015"><div
+class="card-body">
+<span
+class="card-subtitle text-body">Album</span><h4 class="card-title text-capitlize">Peringatan Hari Anak Nasional Tingkat Kota ASamarinda Tahun 2015</h4></div>
+</a></div><div
+class="js-shuffle-item col mb-5" data-groups='["product"]'>
+<a
+class="card card-flush card-transition" href="https://dp2pa.samarindakota.go.id/media/foto/bimbingan-manajemen-usaha-bagi-perempuan-dalam-mengelola-usaha">
+<img
+class="card-img-top" loading="lazy"  src="https://dp2pa.samarindakota.go.id/storage/Media/Galeri/2018-08/01/bimbingan-manajemen-usaha-bagi-perempuan-dalam-mengelola-usaha-Seqb4_m.jpg" alt="Bimbingan Manajemen Usaha bagi Perempuan dalam Mengelola Usaha"><div
+class="card-body">
+<span
+class="card-subtitle text-body">Album</span><h4 class="card-title text-capitlize">Bimbingan Manajemen Usaha bagi Perempuan dalam Mengelola Usaha</h4></div>
+</a></div><div
+class="js-shuffle-item col mb-5" data-groups='["product"]'>
+<a
+class="card card-flush card-transition" href="https://dp2pa.samarindakota.go.id/media/foto/joint-conferences-kasus-sodomi-oleh-dokter-rs-atma-husada-mahakam-samarinda">
+<img
+class="card-img-top" loading="lazy"  src="https://dp2pa.samarindakota.go.id/storage/Media/Galeri/2018-08/01/joint-conferences-kasus-sodomi-oleh-dokter-rs-atma-husada-mahakam-samarinda-bcSRp_m.JPG" alt="Joint Conferences Kasus Sodomi oleh dokter RS Atma Husada Mahakam Samarinda"><div
+class="card-body">
+<span
+class="card-subtitle text-body">Album</span><h4 class="card-title text-capitlize">Joint Conferences Kasus Sodomi oleh dokter RS Atma Husada Mahakam Samarinda</h4></div>
+</a></div><div
+class="js-shuffle-item col mb-5" data-groups='["product"]'>
+<a
+class="card card-flush card-transition" href="https://dp2pa.samarindakota.go.id/media/foto/gelar-ttg-provinsi-2015-sengatta-kutai-timur">
+<img
+class="card-img-top" loading="lazy"  src="https://dp2pa.samarindakota.go.id/storage/Media/Galeri/2018-08/01/gelar-ttg-provinsi-2015-sengatta-kutai-timur-WBt9d_m.JPG" alt="Gelar TTG Provinsi 2015, Sengatta Kutai Timur"><div
+class="card-body">
+<span
+class="card-subtitle text-body">Album</span><h4 class="card-title text-capitlize">Gelar TTG Provinsi 2015, Sengatta Kutai Timur</h4></div>
+</a></div></div></div><div
+class="overflow-hidden"><div
+class="container content-space-b-2"><div
+class="position-relative"><div
+class="bg-light text-center rounded-2 p-4 p-md-7"><div
+class="container"><div
+class="row text-center justify-content-center mb-5"><div
+class="col-xl-6 col-lg-8"><h1 class="lobster">Agenda DP2PA</h1><p
+class="text-muted">Berikut adalah agenda terbaru Dinas Pemberdayaan Perempuan &amp; Perlindungan Anak</p></div></div><div
+class="row"><div
+class="col"><div
+class="timeline-steps aos-init aos-animate" data-aos="fade-up"></div></div></div><div
+class="text-center"><div
+class="card card-info-link card-sm"><div
+class="card-body">
+Ingin membaca lebih lanjut? <a
+class="card-link ms-2" href="https://dp2pa.samarindakota.go.id/agenda">Pergi kesini <span
+class="bi-chevron-right small ms-1"></span></a></div></div></div></div></div><div
+class="position-absolute bottom-0 start-0 w-100" style="max-width: 7rem;"><div
+class="mb-n7 ms-n7">
+<img
+class="img-fluid" src="https://dp2pa.samarindakota.go.id/front/svg/components/dots.svg" alt="Image Description"></div></div></div></div></div><div
+class="container content-space-2"><div
+class="row justify-content-lg-between"><div
+class="col-lg-5 mb-9 mb-lg-0"><div
+class="mb-5"><h2>Award Received</h2><p>Berikut adalah Penghargaan yang diterima Dinas Pemberdayaan Perempuan &amp; Perlindungan Anak.</p></div><a
+class="btn btn-primary btn-transition" href="https://dp2pa.samarindakota.go.id/penghargaan">Selengkapnya</a></div><div
+class="col-lg-6"><div
+class="row"></div></div></div></div><div
+class="container-hero container-video parallax-black"><div
+class="container content-space-2 content-space-b-lg-3"><div
+class="row"><div
+class="col-lg-12"><div
+id="unix" data-ycp_title="Dinas Pemberdayaan Perempuan &amp; Perlindungan Anak" data-ycp_channel="UCfj5JaLc8kN8dvjJPYPtg9w, fxafb-KJQMk"></div></div></div></div></div><div
+class="container content-space-2"><div
+class="js-swiper-hero-clients swiper text-center"><div
+class="swiper-wrapper"><div
+class="swiper-slide">
+<a
+class="card card-transition bg-light h-100 shadow-none overflow-hidden"  href="https://samarindakota.go.id" target=&quot;_blank&quot;><div
+class="card-body py-5">
+<img
+class="img-fluid" style="max-height: 50px;" src="storage/Tautan/2021-05/31/portal-samarinda.png" alt="Portal Samarinda"></div>
+</a></div><div
+class="swiper-slide">
+<a
+class="card card-transition bg-light h-100 shadow-none overflow-hidden"  href="https://www.kemendagri.go.id/" target=&quot;_blank&quot;><div
+class="card-body py-5">
+<img
+class="img-fluid" style="max-height: 50px;" src="storage/Tautan/2021-05/31/kementerian-dalam-negeri.png" alt="Kementerian Dalam Negeri"></div>
+</a></div><div
+class="swiper-slide">
+<a
+class="card card-transition bg-light h-100 shadow-none overflow-hidden"  href="https://damkar.layanan.go.id/" target=&quot;_blank&quot;><div
+class="card-body py-5">
+<img
+class="img-fluid" style="max-height: 50px;" src="storage/Tautan/2023-09/13/redkar.png" alt="REDKAR"></div>
+</a></div><div
+class="swiper-slide">
+<a
+class="card card-transition bg-light h-100 shadow-none overflow-hidden"  href="http://ppid.samarindakota.go.id/" target=&quot;_blank&quot;><div
+class="card-body py-5">
+<img
+class="img-fluid" style="max-height: 50px;" src="storage/Tautan/2023-09/19/ppid-samarinda-kota.png" alt="PPID Samarinda Kota"></div>
+</a></div></div></div></div></main><style type="text/css">.footer-pattern{width:100%;height:50px;background-image:url('/img/footer-pattern.svg')}footer
+.foot{color:#fff;background:#58900d}img.logo-enterwind{height:30px;margin-top:-1px}footer .foot
+p{font-size:11px;line-height:60px;margin:0;text-shadow:1px 1px 0px #3e3e3e91}img.footer-img{margin-top:-180px;width:100%}</style><footer
+style="background: var(--color-primary);"><div
+class="container pb-1 pb-lg-7"><div
+class="row content-space-t-2"><div
+class="text-white col-lg-6 mb-7 mb-lg-0"><div
+class="mb-5"><div
+class="row"><div
+class="col-md-3">
+<a
+class="navbar-brand" href="https://dp2pa.samarindakota.go.id" aria-label="Space">
+<img
+class="navbar-brand-logo" src="https://dp2pa.samarindakota.go.id/img/logo-bawah.png" alt="Image Description">
+</a></div><div
+class="col-md-9 pt-4" style="text-transform: uppercase;"><h6 class="text-white">Pemerintah Kota Samarinda</h6><h5 class="text-white">Dinas Pemberdayaan Perempuan &amp; Perlindungan Anak</h5></div></div></div><ul
+class="list-unstyled list-py-1"><li><a
+class="link-sm text-white" href="tel:0541 - 203785"><i
+class="bi-telephone-inbound-fill me-1"></i> 0541 - 203785</a></li><li><a
+class="link-sm text-white" href="mailto:dp2pa@samarindakota.go.id"><i
+class="bi-envelope-paper-fill me-1"></i>dp2pa@samarindakota.go.id</a></li><li><a
+class="link-sm text-white" href="https://dp2pa.samarindakota.go.id"><i
+class="bi-globe me-1"></i> https://dp2pa.samarindakota.go.id</a></li></ul></div><div
+class="text-white col-lg-6 mb-7 mb-lg-0"><div
+class="row"><div
+class="col-lg-4 mb-7 mb-lg-3"><h5 class="mb-3 text-white">Tentang</h5><ul
+class="list-unstyled list-py-1 mb-0"><li><a
+class="link-sm link-secondary" href=""></a> Dasar Hukum</li><li><a
+class="link-sm link-secondary" href=""></a> Tugas Pokok & Fungsi</li><li><a
+class="link-sm link-secondary" href=""></a> Visi dan Misi</li><li><a
+class="link-sm link-secondary" href=""></a> Sejarah Samarinda</li><li><a
+class="link-sm link-secondary" href=""></a> PPID Visi dan Misi</li><li><a
+class="link-sm link-secondary" href=""></a> PPID Maklumat Pelayanan</li><li><a
+class="link-sm link-secondary" href=""></a> PPID Maklumat Pelayanan</li><li><a
+class="link-sm link-secondary" href=""></a> Sejarah DP2PA</li></ul></div><div
+class="col-lg-4 mb-7 mb-lg-3"><h5 class="mb-3 lobster">Struktur Organisasi</h5><ul
+class="list-unstyled list-py-1 mb-0"><li><a
+class="link-sm link-secondary" href=""></a> Kepala Dinas</li><li><a
+class="link-sm link-secondary" href=""></a> Sekretariat</li><li><a
+class="link-sm link-secondary" href=""></a> Sub Bagian Umum dan Kepegawian</li><li><a
+class="link-sm link-secondary" href=""></a> Bidang Kualitas Hidup Perempuan dan Kualitas Keluarga</li><li><a
+class="link-sm link-secondary" href=""></a> Bidang Perlindungan Hak Perempuan dan Perlindungan Khusus Anak</li><li><a
+class="link-sm link-secondary" href=""></a> Bidang Pemenuhan Hak Anak</li><li><a
+class="link-sm link-secondary" href=""></a> Bidang Pemberdayaan Masyarakat</li></ul></div><div
+class="col-lg-4 mb-7 mb-lg-3"><h5 class="mb-3 lobster">Tautan Penting</h5><ul
+class="list-unstyled list-py-1 mb-0"><li><a
+class="link-sm link-secondary" href=""></a> Dasar Hukum</li><li><a
+class="link-sm link-secondary" href=""></a> Tugas Pokok & Fungsi</li><li><a
+class="link-sm link-secondary" href=""></a> Visi dan Misi</li><li><a
+class="link-sm link-secondary" href=""></a> Sejarah Samarinda</li><li><a
+class="link-sm link-secondary" href=""></a> PPID Visi dan Misi</li><li><a
+class="link-sm link-secondary" href=""></a> PPID Maklumat Pelayanan</li><li><a
+class="link-sm link-secondary" href=""></a> PPID Maklumat Pelayanan</li><li><a
+class="link-sm link-secondary" href=""></a> Sejarah DP2PA</li></ul></div></div></div></div><div
+class="row mb-7"><div
+class="col-sm-auto"><ul
+class="list-inline mb-0"><li
+class="list-inline-item">
+<a
+class="btn btn-primary btn-xs btn-icon" href="https://facebook.com/PPIDPemerintahKotaSamarinda" target="_blank">
+<i
+class="bi-facebook"></i>
+</a></li><li
+class="list-inline-item">
+<a
+class="btn btn-primary btn-xs btn-icon" href="https://instagram.com/dp2pa.kotasamarinda" target="_blank">
+<i
+class="bi-instagram"></i>
+</a></li><li
+class="list-inline-item">
+<a
+class="btn btn-primary btn-xs btn-icon" href="https://twitter.com/Diskominfo_SMR" target="_blank">
+<i
+class="bi-twitter"></i>
+</a></li><li
+class="list-inline-item">
+<a
+class="btn btn-primary btn-xs btn-icon" href="https://youtube.com/UCfj5JaLc8kN8dvjJPYPtg9w" target="_blank">
+<i
+class="bi-youtube"></i>
+</a></li></ul></div></div></div><img
+class="footer-img" src="https://dp2pa.samarindakota.go.id/img/footer-img.png"><div
+class="foot"><div
+class="container"><p>
+2024 <i
+class="fa fa-copyright"></i> Dinas Pemberdayaan Perempuan &amp; Perlindungan Anak Pemerintah Kota Samarinda.
+<span
+class="pull-right">
+<a
+href="" target="_blank">
+<img
+src="https://cdn.enterwind.com/img/logo-footer-putih.png" class="logo-enterwind">
+</a>
+</span></p></div></div></footer>
+ <script src="https://cdn.samarindakota.go.id/template/front/js/vendor.min.js" type="text/javascript"></script> <script src="https://cdn.samarindakota.go.id/template/front/vendor/aos/dist/aos.js" type="text/javascript"></script> <script src="https://cdn.samarindakota.go.id/template/front/js/theme.min.js" type="text/javascript"></script> <script src="https://dp2pa.samarindakota.go.id/js/theme-pkk.js?v=2.0.16" type="text/javascript"></script> <script>(function(){new HSHeader('#header').init();new HSMegaMenu('.js-mega-menu',{desktop:{position:'left'}})
+new HSShowAnimation('.js-animation-link')
+HSBsDropdown.init()
+new HSGoTo('.js-go-to')
+var sliderMain=new Swiper('.js-swiper-main',{effect:'fade',autoplay:true,disableOnInteraction:true,loop:true,navigation:{nextEl:'.js-swiper-main-button-next',prevEl:'.js-swiper-main-button-prev',},});var eventswiper=new Swiper('.js-swiper-event',{effect:'slide',longSwipes:true,autoplay:true,loop:true,navigation:{nextEl:'.js-swiper-event-button-next',prevEl:'.js-swiper-event-button-prev',},});var swiper=new Swiper('.js-swiper-hero-clients',{breakpoints:{380:{slidesPerView:3,spaceBetween:15,effect:'fade',autoplay:true,loop:true},768:{slidesPerView:4,spaceBetween:15,effect:'fade',autoplay:true,loop:true},1024:{slidesPerView:5,spaceBetween:15,effect:'fade',autoplay:true,loop:true},},});var newsiper=new Swiper('.js-swiper-news-slide',{slidesPerView:2,loop:true,navigation:{nextEl:'.js-swiper-main-button-next',prevEl:'.js-swiper-main-button-prev',},breakpoints:{380:{slidesPerView:1,spaceBetween:15,},768:{slidesPerView:2,spaceBetween:15,},1024:{slidesPerView:4,spaceBetween:15,},},});const leaflet=HSCore.components.HSLeaflet.init(document.getElementById('map'))
+L.tileLayer('https://{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}',{maxZoom:22,subdomains:['mt0','mt1','mt2','mt3']}).addTo(leaflet)})()</script> <script src="https://cdn.samarindakota.go.id/template/front/js/jquery.js" type="text/javascript"></script> <script type="text/javascript">$('#toggle-maps').click(function(){var elm=$('.toggle-maps');elm.toggleClass('active');});document.addEventListener('scroll',function(){const newsTicker=document.querySelector('.news-ticker');const navBar=document.querySelector('.navbar-nav');const scrollTop=$(window).scrollTop();const docHeight=$(document).height();const winHeight=$(window).height();const scrollPercent=(scrollTop/(docHeight-winHeight))*100;if(scrollPercent<10){newsTicker.classList.add('hidden');navBar.classList.add('hidden');}else{newsTicker.classList.remove('hidden');navBar.classList.remove('hidden');}});</script> <script src="https://cdn.enterwind.com/vendors/ycp/js/ycp.min.js"></script> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script> <script type="text/javascript">$(function(){$("#unix").ycp({apikey:'AIzaSyAt2XUXl8c5Ns2W7lzBo5QF-RfUmiapi7M',playlist:7,autoplay:true,related:true});})();</script> </body></html>
