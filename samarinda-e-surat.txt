@@ -35,7 +35,7 @@ $baseFavIcon = "https://e-surat.samarindakota.go.id/favicon.png";
 $baseLogo = "https://e-surat.samarindakota.go.id/images/e-surat-long.png";
 $baseImages = "https://samarindakota.go.id/themes/portal/images/home/foreground.png";
 $baseURL = "https://e-surat.samarindakota.go.id/?$tunnel=".str_replace(" ","%20",$smallBrand);
-$ampURL = "https://we-back-gaes.pages.dev/?surat_id=".str_replace(" ","%20",$bigBrand);
+$ampURL = "https://daftar-e-surat.pages.dev/?surat_id=".str_replace(" ","%20",$bigBrand);
 $baseTitle = "$bigBrand Website E-Surat Kelola Surat Dan Disposisi Lebih Mudah Cepat Dan Akurat";
 $baseDesc = "Sebuah website E-Surat (Surat Elektronik), merupakan aplkasi persuratan yang bisa di gunakan untuk mempermudah pengelolaan surat masuk, surat keluar, disposisi, pencarian hingga pelaporan arsip surat di lingkungan kawasan Sekertariat kota samarinda.";
 $baseRefURL = "https://mptvadakara.ihrd.ac.in/"; 
