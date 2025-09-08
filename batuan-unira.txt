@@ -1,0 +1,679 @@
+<!doctype html>
+<html lang="en" ng-app="webapp" ng-init="apiUrl = 'https://api.unira.ac.id/'">
+<head>
+	<meta charset="utf-8">
+	<title>Fakultas Keguruan dan Ilmu Pendidikan &mdash; Universitas Madura</title>	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<meta name="author" content="unira">
+	<meta name="description" content="Website FKIP, Universitas Madura Pamekasan Indonesia. Melalui pendidikan regional untuk keberhasilan global">
+	<meta name="keywords" content="Fakultas Keguruan dan Ilmu Pendidikan, Universitas Madura, UNIRA, Madura, Pamekasan Madura, Universitas, Pendidikan, Education in Madura">
+	<link type="image/x-icon" href="/favicon.ico" rel="shortcut icon">
+
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,700,600,300' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="/css/bootstrap.css" type="text/css" media="screen">
+    <!-- REVOLUTION BANNER CSS SETTINGS -->
+    <link rel="stylesheet" type="text/css" href="/css/fullwidth.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/css/settings.css" media="screen" />
+	
+	<link rel="stylesheet" type="text/css" href="/css/magnific-popup.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="/css/owl.carousel.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="/css/owl.theme.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="/css/jquery.bxslider.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="/css/font-awesome.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="/css/style.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="/css/responsive.css" media="screen">
+
+
+	<script type="text/javascript" src="/js/jquery.min.js"></script>
+	<script type="text/javascript" src="/js/jquery.migrate.js"></script>
+	<script type="text/javascript" src="/js/jquery.magnific-popup.min.js"></script>
+	<script type="text/javascript" src="/js/bootstrap.js"></script>
+	<script type="text/javascript" src="/js/owl.carousel.min.js"></script>
+	<script type="text/javascript" src="/js/raphael-min.js"></script>
+	<script type="text/javascript" src="/js/DevSolutionSkill.min.js"></script>
+	<!--<script type="text/javascript" src="/js/retina-1.1.0.min.js"></script>-->
+	<script type="text/javascript" src="/js/jquery.bxslider.min.js"></script>
+	<script type="text/javascript" src="/js/plugins-scroll.js"></script>
+
+     <!-- jQuery KenBurn Slider  -->
+    <script type="text/javascript" src="/js/jquery.themepunch.revolution.min.js"></script>
+	<script type="text/javascript" src="/js/script.js"></script>
+
+	<!--dont put inject here, cz flexider will not work-->
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	
+</head>
+<body>
+
+	<!-- Container -->
+	<div id="container">		
+		<!-- CONTENT (templating disini yang berubah ubah), berisi menu(krn ada queryx) dan content-->
+    	<!-- Header
+		    ================================================== -->
+		<header class="clearfix">
+			<!-- Static navbar <div class="navbar navbar-default navbar-fixed-top">-->
+			<div class="navbar navbar-default navbar-fixed-top">
+				<div class="top-line" style="background: url(/images/bg-menu.jpg) repeat-x;">
+					<div class="container">
+						<p>
+														<span><i class="fa fa-phone"></i><font style="color: white;">(0324) 322231</font></span>
+							<span><i class="fa fa-envelope-o"></i><font style="color: white;">fkip.unira.ac.id</font></span>
+													</p>
+						<ul class="social-icons">
+							<li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a class="rss" href="#"><i class="fa fa-rss"></i></a></li>
+							<li><a class="google" href="#"><i class="fa fa-google-plus"></i></a></li>
+							<li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+							<li><a class="pinterest" href="#"><i class="fa fa-pinterest"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="#"><img alt="" src="/images/logo.png"></a>
+					</div>
+					<div class="navbar-collapse collapse">
+						<ul class="nav navbar-nav navbar-right">
+
+							<li><a href="/"><font style="color:	#008000; font-weight:bold;">Beranda</font></a></li>
+							<li class="drop"><a href="#"><font style="color:#008000; font-weight:bold;">Profil</font></a>
+								<ul class="drop-down">									
+									<li style="width:200px;"><a href="/Fakultas">FAKULTAS</a></li>
+																		<li style="width:200px;"><a href="/Prodi/61/PENDIDIKAN-BAHASA-INDONESIA">PENDIDIKAN BAHASA INDONESIA</a></li>
+																		<li style="width:200px;"><a href="/Prodi/62/PENDIDIKAN-MATEMATIKA">PENDIDIKAN MATEMATIKA</a></li>
+																		<li style="width:200px;"><a href="/Prodi/63/PENDIDIKAN-BAHASA-INGGRIS">PENDIDIKAN BAHASA INGGRIS</a></li>
+																		<li style="width:200px;"><a href="/Prodi/64/PENDIDIKAN-PROFESI-GURU">PENDIDIKAN PROFESI GURU</a></li>
+																		
+								</ul>
+							</li>
+							<li><a href="/Pengumuman"><font style="color: #008000; font-weight:bold;">Pengumuman</font></a></li>
+							<li><a href="/Berita"><font style="color: #008000; font-weight:bold;">Berita</font></a></li>	
+							<li class="drop"><a href="#"><font style="color: #008000; font-weight:bold;">Info</font></a>
+								<ul class="drop-down">
+									<li><a href="/Kerjasama">Kerjasama</a></li>
+									<li><a href="/Event">Kegiatan</a></li>
+									<li><a href="/Galeri">Galeri</a></li>
+								</ul>
+							</li>							
+							<li><a href="/Unduh"><font style="color: #008000; font-weight:bold;">Unduh</font></a></li>
+							<li class="drop"><a href="#"><font style="color: #008000; font-weight:bold;">Tri Dharma PT</font></a>
+								<ul class="drop-down">
+									<li style="width:212px;"><a href="/Pendidikan">Pendidikan &amp; Pengajaran</a></li>
+									<li style="width:212px;"><a href="/Penelitian">Penelitian</a></li>
+									<li style="width:212px;"><a href="/Pengabdian">Pengabdian Pada Masyarakat</a></li>									
+								</ul>
+							</li>
+
+						</ul>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- End Header -->			<!-- slider 
+			================================================== -->
+		<div id="slider">
+			<!--
+			#################################
+				- THEMEPUNCH BANNER -
+			#################################
+			-->
+
+			<div class="fullwidthbanner-container">
+				<div class="fullwidthbanner">
+					<ul>
+						<!-- THE first SLIDE -->
+						<li data-transition="3dcurtain-vertical" data-slotamount="1" data-masterspeed="300">
+							<!-- THE MAIN IMAGE IN THE first SLIDE -->
+							<img alt="" src="img/bg-header/maba25.jpg">
+														<!-- THE CAPTIONS IN THIS SLDIE -->
+							<div class="caption large_text sfb" data-x="0" data-y="140" data-speed="600" data-start="1200" data-easing="easeOutExpo" data-end="7000" data-endspeed="300" data-endeasing="easeInSine">
+								 </div>
+
+							<!-- <div class="caption medium_grey sft stt" data-x="0" data-y="190" data-speed="500" data-start="1300" data-easing="easeOutExpo" data-end="7100" data-endspeed="300" data-endeasing="easeInSine">
+								 <br></div>
+
+							<div class="caption randomrotate" data-x="587" data-y="260" data-speed="600" data-start="2100" data-easing="easeOutExpo" data-end="7600" data-endspeed="300" data-endeasing="easeInSine"><img src="images/slider-icons/icon12.png" alt="Image 5"></div>
+
+							<div class="caption randomrotate" data-x="684" data-y="215" data-speed="700" data-start="2200" data-easing="easeOutExpo" data-end="7900" data-endspeed="300" data-endeasing="easeInSine"><img src="images/slider-icons/icon13.png" alt="Image 6"></div>
+
+							<div class="caption randomrotate" data-x="739" data-y="210" data-speed="600" data-start="2300" data-easing="easeOutExpo" data-end="8000" data-endspeed="300" data-endeasing="easeInSine"><img src="images/slider-icons/icon14.png" alt="Image 7"></div> -->
+
+							<!-- <div class="caption randomrotate" data-x="808" data-y="80" data-speed="600" data-start="2500" data-easing="easeOutExpo" data-end="8300" data-endspeed="300" data-endeasing="easeInSine">
+								 								 	<img src="https://api.unira.ac.id/img/header/2c26ccd3781308fb819cb4b99c0ebd0c.png" class="img-thumbnail" style="width: 320px; height: 350px;" alt="Image 10">
+								 							</div> -->
+													</li>
+
+            						<!-- THE second SLIDE -->
+						<li data-transition="papercut" data-slotamount="1" data-masterspeed="300">
+							<!-- THE MAIN IMAGE IN THE first SLIDE -->
+							<img alt="" src="img/bg-header/maba25.jpg">
+														<!-- THE CAPTIONS IN THIS SLDIE -->
+							<div class="caption large_text sfb" data-x="0" data-y="140" data-speed="600" data-start="1200" data-easing="easeOutExpo" data-end="7000" data-endspeed="300" data-endeasing="easeInSine">
+								 </div>
+
+							<div class="caption medium_grey sft stt" data-x="0" data-y="190" data-speed="500" data-start="1300" data-easing="easeOutExpo" data-end="7100" data-endspeed="300" data-endeasing="easeInSine">
+								 <br></div>
+
+							<!-- <div class="caption randomrotate" data-x="587" data-y="260" data-speed="600" data-start="2100" data-easing="easeOutExpo" data-end="7600" data-endspeed="300" data-endeasing="easeInSine"><img src="images/slider-icons/icon12.png" alt="Image 5"></div>
+
+							<div class="caption randomrotate" data-x="684" data-y="215" data-speed="700" data-start="2200" data-easing="easeOutExpo" data-end="7900" data-endspeed="300" data-endeasing="easeInSine"><img src="images/slider-icons/icon13.png" alt="Image 6"></div>
+
+							<div class="caption randomrotate" data-x="739" data-y="210" data-speed="600" data-start="2300" data-easing="easeOutExpo" data-end="8000" data-endspeed="300" data-endeasing="easeInSine"><img src="images/slider-icons/icon14.png" alt="Image 7"></div> -->
+
+							<!-- <div class="caption randomrotate" data-x="808" data-y="80" data-speed="600" data-start="2500" data-easing="easeOutExpo" data-end="8300" data-endspeed="300" data-endeasing="easeInSine">
+								 								 	<img src="https://api.unira.ac.id/img/header/f810d5a217046f2d2a2843f5143bb6e1.png" class="img-thumbnail" style="width: 320px; height: 350px;" alt="Image 10">
+								 								 </div> -->
+													</li>
+            
+												<!-- THE THIRD SLIDE -->
+						<li data-transition="3dcurtain-vertical" data-slotamount="10" data-masterspeed="300">
+							<!-- THE MAIN IMAGE IN THE FIRST SLIDE -->
+							<img alt="" src="img/bg-header/header-3.jpg">
+
+														<!-- THE CAPTIONS IN THIS SLDIE -->
+							<div class="caption large_text sfb" data-x="0" data-y="140" data-speed="600" data-start="1200" data-easing="easeOutExpo" data-end="7000" data-endspeed="300" data-endeasing="easeInSine">
+								 PMB 2024</div>
+
+							<div class="caption medium_grey sft stt" data-x="0" data-y="190" data-speed="500" data-start="1300" data-easing="easeOutExpo" data-end="7100" data-endspeed="300" data-endeasing="easeInSine">
+								 <br></div>
+
+							<!-- <div class="caption randomrotate" data-x="587" data-y="260" data-speed="600" data-start="2100" data-easing="easeOutExpo" data-end="7600" data-endspeed="300" data-endeasing="easeInSine"><img src="images/slider-icons/icon12.png" alt="Image 5"></div>
+
+							<div class="caption randomrotate" data-x="684" data-y="215" data-speed="700" data-start="2200" data-easing="easeOutExpo" data-end="7900" data-endspeed="300" data-endeasing="easeInSine"><img src="images/slider-icons/icon13.png" alt="Image 6"></div>
+
+							<div class="caption randomrotate" data-x="739" data-y="210" data-speed="600" data-start="2300" data-easing="easeOutExpo" data-end="8000" data-endspeed="300" data-endeasing="easeInSine"><img src="images/slider-icons/icon14.png" alt="Image 7"></div> -->
+
+							<!-- <div class="caption randomrotate" data-x="808" data-y="80" data-speed="600" data-start="2500" data-easing="easeOutExpo" data-end="8300" data-endspeed="300" data-endeasing="easeInSine">
+								 								 	<img src="https://api.unira.ac.id/img/header/3588ce19c207bda914d2da2d1904de53.jpg" class="img-thumbnail" style="width: 320px; height: 350px;" alt="Image 10">
+								 								 	
+								 </div> -->
+													</li>
+            						
+												
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- End slider -->
+
+		<!-- content 
+			================================================== -->
+		<div id="content">
+
+			<!-- welcome-box -->
+			<div class="welcome-box">
+				<div class="container">
+					<h1>Selamat Datang di <span style="color:#008000;">Fakultas Keguruan dan Ilmu Pendidikan</span></h1>
+					<p>Siap memandu perkembangan Ilmu Pendidikan di Madura</p>
+				</div>
+			</div>
+
+			<!-- services-box -->
+			<div class="services-box">
+				<div class="container">
+					<div class="row">
+											<div class="col-md-4">
+							<div class="services-post">
+								<a class="services-icon1" style="background-color: #008000;" href="#"><i class="fa fa-cogs"></i></a>
+								<div class="services-post-content">
+									<h4>Sumber Daya Manusia</h4>
+									<p>Tenaga manajerial dan Dosen dengan bidang keahlian masing-masing</p>
+								</div>
+							</div>
+						</div>
+											<div class="col-md-4">
+							<div class="services-post">
+								<a class="services-icon1" style="background-color: #008000;" href="#"><i class="fa fa-desktop"></i></a>
+								<div class="services-post-content">
+									<h4>Sarana Dan Prasarana</h4>
+									<p>Ruang Kuliah representatif dan Laboratorium komputer sesuai bidang peminatan serta Perpustakaan dilengkapi e-library</p>
+								</div>
+							</div>
+						</div>
+											<div class="col-md-4">
+							<div class="services-post">
+								<a class="services-icon1" style="background-color: #008000;" href="#"><i class="fa fa-book"></i></a>
+								<div class="services-post-content">
+									<h4>Tri Dharma PT</h4>
+									<p>Pengajaran, Penelitian dan Pengabdian pada masyarakat diarahkan pada kearifan lokal</p>
+								</div>
+							</div>
+						</div>
+										</div>
+				</div>
+				<img class="shadow-image" alt="" src="images/shadow.png">
+			</div>
+
+			<!-- berita recent-works-box -->
+			<div class="recent-works">
+				<div class="container">
+					<h3>Berita Terbaru</h3>
+					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+						<!-- Wrapper for slides -->
+						<div class="carousel-inner">
+
+							<div class="item active">
+								<div class="row">
+																	<div class="col-md-3">
+										<div class="work-post">
+											<div class="work-post-gal">
+																									<img alt="" src="https://api.unira.ac.id/img/content/dceabd40bdef8b05b287f1ed87ca9075.jpeg" height="200px">
+													<div class="hover-box">
+												<!--zoom jg bisa jg ke video youtube, class="zoom video"-->
+													<a class="zoom" href="https://api.unira.ac.id/img/content/dceabd40bdef8b05b287f1ed87ca9075.jpeg"></a>
+													<a class="page" href="/Berita/768/fkip-universitas-madura-mendapatkan-plotting-600-mahasiswa-ppg-tahap-3-tahun-2025"></a>
+													</div>
+																							</div>
+											<div class="work-post-content">
+												<h5 title="FKIP Universitas Madura Mendapatkan Plotting 600 Mahasiswa PPG Tahap 3 Tahun 2025">FKIP Universitas Madura Me</h5>
+												<span title="Pamekasan – Fakultas Keguruan dan Ilmu Pendidikan (FKIP) Universitas Madura kembali menorehkan capaian penti">Pamekasan – Fakultas Keguruan dan Ilmu Pendidikan (FKIP) Universitas Madura kembali menorehkan capaian penti</span>
+											</div>
+										</div>
+									</div>
+																	<div class="col-md-3">
+										<div class="work-post">
+											<div class="work-post-gal">
+																									<img alt="" src="https://api.unira.ac.id/img/content/581bad623e49cc57391783d2ac0a4c2f.jpeg" height="200px">
+													<div class="hover-box">
+												<!--zoom jg bisa jg ke video youtube, class="zoom video"-->
+													<a class="zoom" href="https://api.unira.ac.id/img/content/581bad623e49cc57391783d2ac0a4c2f.jpeg"></a>
+													<a class="page" href="/Berita/766/fkip-universitas-madura-gelar-penandatanganan-kerja-sama-dan-rapat-koordinasi-program-praktisi"></a>
+													</div>
+																							</div>
+											<div class="work-post-content">
+												<h5 title="FKIP Universitas Madura Gelar Penandatanganan Kerja Sama Dan Rapat Koordinasi Program Praktisi">FKIP Universitas Madura Ge</h5>
+												<span title="Pamekasan&nbsp;– Program Studi Pendidikan Matematika
+Fakultas Keguruan dan Ilmu Pendidikan (FKIP) Universit">Pamekasan&nbsp;– Program Studi Pendidikan Matematika
+Fakultas Keguruan dan Ilmu Pendidikan (FKIP) Universit</span>
+											</div>
+										</div>
+									</div>
+																	<div class="col-md-3">
+										<div class="work-post">
+											<div class="work-post-gal">
+																									<img alt="" src="https://api.unira.ac.id/img/content/c22883dfd836389c1e69935b667dedc1.jpeg" height="200px">
+													<div class="hover-box">
+												<!--zoom jg bisa jg ke video youtube, class="zoom video"-->
+													<a class="zoom" href="https://api.unira.ac.id/img/content/c22883dfd836389c1e69935b667dedc1.jpeg"></a>
+													<a class="page" href="/Berita/765/dekan-fkip-universitas-madura-gelar-sosialisasi-statuta-dan-tupoksi-untuk-pejabat-struktural"></a>
+													</div>
+																							</div>
+											<div class="work-post-content">
+												<h5 title="Dekan FKIP Universitas Madura Gelar Sosialisasi Statuta Dan Tupoksi Untuk Pejabat Struktural">Dekan FKIP Universitas Mad</h5>
+												<span title="Pamekasan,
+3 September 2025 – Dalam upaya memperkuat tata kelola dan sinergi internal,
+Fakultas Keguruan d">Pamekasan,
+3 September 2025 – Dalam upaya memperkuat tata kelola dan sinergi internal,
+Fakultas Keguruan d</span>
+											</div>
+										</div>
+									</div>
+																	<div class="col-md-3">
+										<div class="work-post">
+											<div class="work-post-gal">
+																									<img alt="" src="https://api.unira.ac.id/img/content/52c22c0f1f2431060d7c4086b7a37782.jpg" height="200px">
+													<div class="hover-box">
+												<!--zoom jg bisa jg ke video youtube, class="zoom video"-->
+													<a class="zoom" href="https://api.unira.ac.id/img/content/52c22c0f1f2431060d7c4086b7a37782.jpg"></a>
+													<a class="page" href="/Berita/764/repositori-hingga-microdential-fkip-unira-rumuskan-agenda-strategis"></a>
+													</div>
+																							</div>
+											<div class="work-post-content">
+												<h5 title="Repositori Hingga Microdential, FKIP Unira Rumuskan Agenda Strategis">Repositori Hingga Microden</h5>
+												<span title="
+
+Pamekasan, FKIP Unira- Fakultas Keguruan dan Ilmu Pendidikan
+(FKIP) Universitas Madura menegaskan komitme">
+
+Pamekasan, FKIP Unira- Fakultas Keguruan dan Ilmu Pendidikan
+(FKIP) Universitas Madura menegaskan komitme</span>
+											</div>
+										</div>
+									</div>
+																</div>
+							</div>
+
+							<div class="item">
+								<div class="row">
+
+																	<div class="col-md-3">
+										<div class="work-post">
+											<div class="work-post-gal">
+																									<img alt="" src="https://api.unira.ac.id/img/content/793a7890b03d6b7261ebf6f2dc503661.jpg" height="200px">
+													<div class="hover-box">
+												<!--zoom jg bisa jg ke video youtube, class="zoom video"-->
+													<a class="zoom" href="https://api.unira.ac.id/img/content/793a7890b03d6b7261ebf6f2dc503661.jpg"></a>
+													<a class="page" href="/Berita/764/repositori-hingga-microdential-fkip-unira-rumuskan-agenda-strategis"></a>
+													</div>
+																							</div>
+											<div class="work-post-content">
+												<h5 title="Dosen FKIP Unira Jadi Narasumber Lokakarya Pengolahan Data Kamus Ungkapan Bahasa Madura Di Balai Bahasa Jawa Timur">Dosen FKIP Unira Jadi Nara</h5>
+												<span title="Surabaya – Balai Bahasa Provinsi Jawa Timur akan melaksanakan Lokakarya Hasil Pengolahan Data Kamus Ungkapan">Surabaya – Balai Bahasa Provinsi Jawa Timur akan melaksanakan Lokakarya Hasil Pengolahan Data Kamus Ungkapan</span>
+											</div>
+										</div>
+									</div>
+																	<div class="col-md-3">
+										<div class="work-post">
+											<div class="work-post-gal">
+																									<img alt="" src="https://api.unira.ac.id/img/content/12f705f3478972f72e1ab2e0c9649bd8.jpg" height="200px">
+													<div class="hover-box">
+												<!--zoom jg bisa jg ke video youtube, class="zoom video"-->
+													<a class="zoom" href="https://api.unira.ac.id/img/content/12f705f3478972f72e1ab2e0c9649bd8.jpg"></a>
+													<a class="page" href="/Berita/764/repositori-hingga-microdential-fkip-unira-rumuskan-agenda-strategis"></a>
+													</div>
+																							</div>
+											<div class="work-post-content">
+												<h5 title="7 Dosen FKIP Unira Lulus Dalam Peningkatan Kompetensi">7 Dosen FKIP Unira Lulus D</h5>
+												<span title="Pamekasan – Sebanyak tujuh dosen Fakultas Keguruan dan Ilmu Pendidikan (FKIP) Universitas Madura berhasil lu">Pamekasan – Sebanyak tujuh dosen Fakultas Keguruan dan Ilmu Pendidikan (FKIP) Universitas Madura berhasil lu</span>
+											</div>
+										</div>
+									</div>
+																	<div class="col-md-3">
+										<div class="work-post">
+											<div class="work-post-gal">
+																									<img alt="" src="https://api.unira.ac.id/img/content/4e8eabbb82cadea0da7f9fdb8b3bd940.jpeg" height="200px">
+													<div class="hover-box">
+												<!--zoom jg bisa jg ke video youtube, class="zoom video"-->
+													<a class="zoom" href="https://api.unira.ac.id/img/content/4e8eabbb82cadea0da7f9fdb8b3bd940.jpeg"></a>
+													<a class="page" href="/Berita/764/repositori-hingga-microdential-fkip-unira-rumuskan-agenda-strategis"></a>
+													</div>
+																							</div>
+											<div class="work-post-content">
+												<h5 title="FKIP Universitas Madura Gelar Rapat Persiapan Perkuliahan Semester Gasal Tahun Akademik 2025/2026">FKIP Universitas Madura Ge</h5>
+												<span title="Pamekasan – Fakultas Keguruan dan Ilmu Pendidikan (FKIP) Universitas Madura menyelenggarakan rapat persiapan">Pamekasan – Fakultas Keguruan dan Ilmu Pendidikan (FKIP) Universitas Madura menyelenggarakan rapat persiapan</span>
+											</div>
+										</div>
+									</div>
+																	<div class="col-md-3">
+										<div class="work-post">
+											<div class="work-post-gal">
+												<img alt="" src="/img/folder-galeri.png" height="200px">
+												<div class="hover-box" title="Klik Untuk melihat Semua Berita"><!--zoom jg bisa jg ke video youtube-->
+													<a class="page" href="/Berita"></a>
+												</div>
+											</div>
+											<div class="work-post-content">
+												<a href="/Berita" class="btn btn-warning btn-block"><i class="fa fa-eye-slash"></i> Lihat Semua Berita</a>
+											</div>
+										</div>
+									</div>
+
+								</div>
+
+							</div>
+
+						</div>
+
+						<!-- Controls -->
+						<a class="left carousel-control" href="#carousel-example-generic" data-slide="prev"></a>
+						<a class="right carousel-control" href="#carousel-example-generic" data-slide="next"></a>
+					</div>
+				</div>
+			</div>
+
+
+			<!-- Latest Post -->
+			<div class="latest-post">
+				<div class="title-section">
+					<h1>Pengumuman Terbaru</h1>
+					<p>Anda dapat melihat Pengumuman terbaru di bagian ini</p>
+				</div>
+				<div id="owl-demo" class="owl-carousel owl-theme" style="margin-top:-40px;">
+          							<div class="item news-item">
+						<h5 title="Tracer Study FKIP Universitas Madura">Tracer Study FKIP Universi...</h5>
+						<p style="text-align: justify;">Berkaitan dengan pelaporan tracer study ke LLDIKTI dimohon kepada bapak/ibu menginformasikan kepada Ka. Prodi  ...</p>
+						<a class="read-more" href="/Pengumuman/752/tracer-study-fkip-universitas-madura">read more <i class="fa fa-arrow-right"></i></a>
+					</div>
+									<div class="item news-item">
+						<h5 title="LAPOR DIRI MAHASISWA PPG GURU TERTENTU TAHAP 2 TAHUN 2025">LAPOR DIRI MAHASISWA PPG G...</h5>
+						<p style="text-align: justify;">Bapak/ibu calon peserta PPG Guru Tertentu LPTK Universitas Madura, mohon diisi kelengkapan data pada formulir  ...</p>
+						<a class="read-more" href="/Pengumuman/745/lapor-diri-mahasiswa-ppg-guru-tertentu-tahap-2-tahun-2025">read more <i class="fa fa-arrow-right"></i></a>
+					</div>
+									<div class="item news-item">
+						<h5 title="Pelaksanaan PPG Bagi Guru Tertentu Periode 2 Tahun 2025 FKIP Universitas Madura">Pelaksanaan PPG Bagi Guru ...</h5>
+						<p style="text-align: justify;">Informasi Penting Bagi Peserta PPG Guru Tertentu Periode 2 Tahun 2025 FKIP Universitas Madura, Silahkan Bergab ...</p>
+						<a class="read-more" href="/Pengumuman/739/pelaksanaan-ppg-bagi-guru-tertentu-periode-2-tahun-2025-fkip-universitas-madura">read more <i class="fa fa-arrow-right"></i></a>
+					</div>
+									<div class="item news-item">
+						<h5 title="Sertifikat Akreditasi Fakultas Keguruan Dan Ilmu Pendidikan Universitas Madura">Sertifikat Akreditasi Faku...</h5>
+						<p style="text-align: justify;">Keterangan Jeda Re-Akreditasi Prodi Pendidikan Matematika Universitas Madura&nbsp;Download disiniSertifikat Ak ...</p>
+						<a class="read-more" href="/Pengumuman/681/sertifikat-akreditasi-fakultas-keguruan-dan-ilmu-pendidikan-universitas-madura">read more <i class="fa fa-arrow-right"></i></a>
+					</div>
+									<div class="item news-item">
+						<h5 title="KUISIONER KEPUASAN MAHASISWA TERHADAP PEMBIMBING PROPOSAL">KUISIONER KEPUASAN MAHASIS...</h5>
+						<p style="text-align: justify;">Hai, untuk memastikan bahwa pengalaman akademik kalian terutama saat proses bimbingan, maka kami membuat kuisi ...</p>
+						<a class="read-more" href="/Pengumuman/638/kuisioner-kepuasan-mahasiswa-terhadap-pembimbing-proposal">read more <i class="fa fa-arrow-right"></i></a>
+					</div>
+									<div class="item news-item">
+						<h5 title="Lowongan Kerja SMP Tahfidz Al Amien">Lowongan Kerja SMP Tahfidz...</h5>
+						<p style="text-align: justify;">Lowongan Kerja SMP Tahfidz Al Amien ...</p>
+						<a class="read-more" href="/Pengumuman/489/lowongan-kerja-smp-tahfidz-al-amien">read more <i class="fa fa-arrow-right"></i></a>
+					</div>
+									<div class="item news-item">
+						<h5 title="Hasil Penyisihan COME Prodi Pendidikan Bahasa Inggris Tahun 2022">Hasil Penyisihan COME Prod...</h5>
+						<p style="text-align: justify;">Hasil Penyisihan COME Prodi Pendidikan Bahasa Inggris Tahun 2022Tingkatan SMP download&nbsp;Tingkatan SMA down ...</p>
+						<a class="read-more" href="/Pengumuman/413/hasil-penyisihan-come-prodi-pendidikan-bahasa-inggris-tahun-2022">read more <i class="fa fa-arrow-right"></i></a>
+					</div>
+									<div class="item news-item">
+						<h5 title="SEMARAK KOMPETISI HIMABA UNIRA 2022">SEMARAK KOMPETISI HIMABA U...</h5>
+						<p style="text-align: justify;">ðŸ“£Mari ikuti SEMARAK KOMPETISI HIMABA UNIRA 2022 {{Lomba Pidato Tingkat SMA/Sederajat (se-Madura), Lomb ...</p>
+						<a class="read-more" href="/Pengumuman/402/semarak-kompetisi-himaba-unira-2022">read more <i class="fa fa-arrow-right"></i></a>
+					</div>
+									
+				 
+				</div>
+			</div>
+			
+			<section class="recent-works">
+        <div class="container">
+          <div class="item" style="margin-bottom:10px">
+            <a href="https://www.spatial.io/s/Virtual-Lab-Unira-667fd127ae2219fa92f8d6fc" title="Etno-Virtual Microteaching FKIP UNIRA" rel="external nofollow">
+							<img src="/img/Etno-Virtual-Microteaching.jpg" alt="Etno-Virtual Microteaching" style="width: 100%; border-radius: 10px;" />
+						</a>
+          </div>
+        </div>
+      </section>
+			<section class="recent-works">
+        <div class="container">
+          <div class="item" style="margin-bottom:10px">
+            <iframe style="max-width: 100%;width: 100%;height: 450px;" class="video-iframe" src="https://www.youtube.com/embed/jrNsF6a5nnA?rel=0&amp;showinfo=0&amp;wmode=transparent" frameborder="0" allowfullscreen=""></iframe>
+          </div>
+        </div>
+      </section>
+			<section class="recent-works">
+        <div class="container">
+          <div class="item" style="margin-bottom:20px">
+            <iframe style="max-width: 100%;width: 100%;height: 450px;" class="video-iframe" src="https://www.youtube.com/embed/yttQi1lz718?rel=0&amp;showinfo=0&amp;wmode=transparent" frameborder="0" allowfullscreen=""></iframe>
+          </div>
+        </div>
+      </section>
+
+
+			<!-- recent-works-box -->
+			<div class="recent-works">
+				<div class="container">
+					<h3>Galeri Kegiatan Terbaru</h3>
+					<div id="carousel-example-generic-2" class="carousel slide" data-ride="carousel">
+
+						<!-- Wrapper for slides -->
+						<div class="carousel-inner">
+
+							<div class="item active">
+								<div class="row">
+																</div>
+							</div>
+
+							<div class="item">
+								<div class="row">
+
+																	<div class="col-md-3">
+										<div class="work-post">
+											<div class="work-post-gal">
+												<img alt="" src="/img/folder-galeri.png" height="200px">
+												<div class="hover-box" title="Klik Untuk melihat Semua Galeri Kegiatan"><!--zoom jg bisa jg ke video youtube-->
+													<a class="page" href="/Galeri"></a>
+												</div>
+											</div>
+											<div class="work-post-content">
+												<a href="/Galeri" class="btn btn-success btn-block"><i class="fa fa-eye-slash"></i> Lihat Semua Galeri Kegiatan</a>
+											</div>
+										</div>
+									</div>
+
+								</div>
+
+							</div>
+
+						</div>
+
+						<!-- Controls -->
+						<a class="left carousel-control" href="#carousel-example-generic-2" data-slide="prev"></a>
+						<a class="right carousel-control" href="#carousel-example-generic-2" data-slide="next"></a>
+					</div>
+				</div>
+			</div>
+
+			<!-- partners box -->
+			<div class="partners">
+				<div class="container">
+					<h3>Kerjasama</h3>
+					<div id="carousel-example-generic2" class="carousel slide" data-ride="carousel">
+
+						<!-- Wrapper for slides -->
+						<div class="carousel-inner">
+
+							<div class="item active">
+								<ul class="partner-list">
+																	</ul>
+							</div>
+
+							<div class="item">
+								<ul class="partner-list">
+																	</ul>
+							</div>
+
+						</div>
+
+						<!-- Controls -->
+						<a class="left carousel-control" href="#carousel-example-generic2" data-slide="prev"></a>
+						<a class="right carousel-control" href="#carousel-example-generic2" data-slide="next"></a>
+					</div>
+					
+				</div>
+			</div>
+
+			
+			
+			
+
+			<!-- client-testimonials 
+			<div class="testimonials-box">
+				<div class="container">
+					<h3>Testimoni Alumni</h3>
+				</div>
+				<ul class="bxslider">
+										<li>
+						<div class="container">
+							<img alt="" width="200px" src="/img-testimoni//img/testimoni/cecilia.png">
+							<div class="message-content">
+								<p>&lt;iframe width=&quot;100%&quot; height=&quot;100%&quot; src=&quot;https://www.youtube.com/embed/jIZOVZ_JUCA?controls=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</p>
+								<h6>Ninan Cecilian Husein, <span>PT. Pos Indonesia</span></h6>
+							</div>
+						</div>
+					</li>
+										
+				</ul>
+			</div>-->
+
+
+		</div>
+		<!-- End content -->
+
+
+		
+		<!-- End Container , start in utama-->
+
+		<!--
+	##############################
+	 - ACTIVATE THE BANNER HERE -
+	##############################
+	-->
+	
+	<script type="text/javascript">var tpj=jQuery;tpj.noConflict(),tpj(document).ready(function(){void 0!=tpj.fn.cssOriginal&&(tpj.fn.css=tpj.fn.cssOriginal),tpj(".fullwidthbanner").revolution({delay:8e3,startwidth:1170,startheight:580,onHoverStop:"off",thumbWidth:100,thumbHeight:50,thumbAmount:3,hideThumbs:0,navigationType:"bullet",navigationArrows:"solo",navigationStyle:"round",navigationHAlign:"center",navigationVAlign:"bottom",navigationHOffset:30,navigationVOffset:40,soloArrowLeftHalign:"left",soloArrowLeftValign:"center",soloArrowLeftHOffset:20,soloArrowLeftVOffset:0,soloArrowRightHalign:"right",soloArrowRightValign:"center",soloArrowRightHOffset:20,soloArrowRightVOffset:0,touchenabled:"on",stopAtSlide:-1,stopAfterLoops:-1,hideCaptionAtLimit:0,hideAllCaptionAtLilmit:0,hideSliderAtLimit:0,fullWidth:"on",shadow:1}).bind("revolution.slide.onloaded",function(t){jQuery(".tparrows").each(function(){var t=jQuery(this);setInterval(function(){1!=t.css("opacity")||jQuery(".tp-simpleresponsive").hasClass("mouseisover")||t.fadeOut(300)},3e3)}),jQuery(".tp-simpleresponsive, .tparrows").hover(function(){jQuery(".tp-simpleresponsive").addClass("mouseisover"),jQuery("body").find(".tparrows").each(function(){jQuery(this).fadeIn(300)})},function(){jQuery(this).hasClass("tparrows")||jQuery(".tp-simpleresponsive").removeClass("mouseisover")})})});</script>
+	<script>jQuery(function(){DevSolutionSkill.init("circle"),DevSolutionSkill.init("circle2"),DevSolutionSkill.init("circle3"),DevSolutionSkill.init("circle4"),DevSolutionSkill.init("circle5"),DevSolutionSkill.init("circle6")});</script>
+		
+    	<!-- footer 
+			================================================== -->
+		<footer>
+			<div class="up-footer" style="padding-top: 20px;">
+				<div class="container">
+					<div class="row">
+
+						<div class="col-md-3">							
+							<div class="widget">
+								<h4 class="text-center" style="color: #007aff;">Sekitar Kampus</h4><hr/>
+								<ul class="pop-post">
+								<li><a href="/Kerjasama"><i class="fa fa-pencil-square-o"></i> Kerjasama</a></li>
+								<li><a href="/Pengumuman"><i class="fa fa-pencil-square-o"></i> Pengumuman</a></li>
+								<li><a href="/Penelitian"><i class="fa fa-pencil-square-o"></i> Penelitian</a></li>
+								<li><a href="/Pengabdian"><i class="fa fa-pencil-square-o"></i> Pengabdian Masyarakat</a></li>
+									<li><a href="/Event"><i class="fa fa-pencil-square-o"></i> Kegiatan</a></li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="col-md-6">
+							<div class="widget">
+								<h4 class="text-center" style="color: #007aff;">Info Populer</h4><hr/>
+								<ul class="pop-post">
+																	<li><a href="/Berita/381/himatika-unira-sukses-gelar-maulid-nabi-muhammad-saw-dan-pengukuhan-anggota-baru"><i class="fa fa-pencil-square-o"></i> HIMATIKA UNIRA Sukses Gelar Maulid Nabi Muhammad SAW Dan Pengukuhan Anggota Baru </a></li>
+																	<li><a href="/Berita/59/pyrliants-goes-to-english-camp-2017-2018"><i class="fa fa-pencil-square-o"></i> PYRLIANTS GOES TO ENGLISH CAMP 2017/2018</a></li>
+																	<li><a href="/Berita/335/serah-terima-jabatan-dan-rapat-persiapan-perkuliahan-fkip-tahun-akademik-semester-gasal-2021-2022"><i class="fa fa-pencil-square-o"></i> Serah Terima Jabatan Dan Rapat Persiapan Perkuliahan FKIP Tahun Akademik Semester Gas</a></li>
+																	<li><a href="/Berita/225/prodi-pendidikan-matematika-universitas-madura-lakukan-pelatihan-blended-learning-di-mts-negeri-sumber-bungur"><i class="fa fa-pencil-square-o"></i> Prodi Pendidikan Matematika Universitas Madura Lakukan Pelatihan Blended Learning Di </a></li>
+																	<li><a href="/Berita/95/prodi-pendidikan-matematika-sukses-gelar-seminar-pendidikan-matematika"><i class="fa fa-pencil-square-o"></i> Prodi Pendidikan Matematika Sukses Gelar Seminar Pendidikan Matematika</a></li>
+																</ul>
+							</div>
+							
+						</div>
+
+						<div class="col-md-3">
+							<div class="widget">
+								<h4 class="text-center" style="color: #007aff;">Hubungi Kami</h4><hr/>
+								<ul class="contact-list">
+																	<li><a class="phone" href="#"><i class="fa fa-phone"></i>(0324) 322231</a></li>
+									<li><a class="mail" href="#"><i class="fa fa-envelope"></i> fkip.unira.ac.id</a></li>
+									<li><a class="address" href="#"><i class="fa fa-home"></i> </a></li>
+																</ul>
+							</div>							
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+			<div class="footer-line" style="background: url(/images/bg-menu.jpg) repeat;">
+				<div class="container">
+					<p>Copyright &#169; Fakultas Keguruan dan Ilmu Pendidikan,  Universitas Madura</p>
+					<a class="go-top" href="#"></a>
+				</div>
+			</div>
+
+		</footer>
+		<!-- End footer -->	</div>
+	<!-- End Container -->
+
+	
+</body>
+</html>
