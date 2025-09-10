@@ -90,8 +90,8 @@ Shopify.routes.root = "/";</script>
 <meta property="og:title" content="<?php echo $BRAND; ?> Link Resmi RANTING NU SUGIHWARAS Kec Candi Kab Sidoarjo" />
 <meta property="og:type" content="product" />
 <meta property="og:url" content="view-source:" />
-<meta property="og:image" content="https://res-cloudinary-com.cdn.ampproject.org/ii/AW/s/res.cloudinary.com/dwc5x3e0k/image/upload/v1751591731/SCAN_ME_s7p529.png" />
-<link rel="preload" href="https://res-cloudinary-com.cdn.ampproject.org/ii/AW/s/res.cloudinary.com/dwc5x3e0k/image/upload/v1751591731/SCAN_ME_s7p529.png" as="image" />
+<meta property="og:image" content="https://nusugihwaras.or.id/desa/upload/galeri/sedang_l5vblz_whatsapp_image_2022-09-17_at_10.43.05_(1).jpeg?1757535010422" />
+<link rel="preload" href="https://nusugihwaras.or.id/desa/upload/galeri/sedang_l5vblz_whatsapp_image_2022-09-17_at_10.43.05_(1).jpeg?1757535010422" as="image" />
 <meta property="og:description" content="<?php echo $BRAND; ?> Sebuah website resmi RANTING NU SUGIHWARAS kecamatan candi kabupaten sidoarjo indonesia. Sebuah lembaga Nadahtul ulama islam yang yang berkeluarga besar di kabupaten sidoarjo." />
 <meta property="product:brand" content="<?php echo $BRAND; ?> Link Resmi RANTING NU SUGIHWARAS Kec Candi Kab Sidoarjo" />
 <meta property="product:availability" content="in stock" />
@@ -106,7 +106,7 @@ Shopify.routes.root = "/";</script>
 <meta property="twitter:creator" content="<?php echo $BRAND; ?>" />
 <meta property="twitter:type" content="product" />
 <meta property="twitter:url" content="<?php echo $BRAND; ?>" />
-<meta property="twitter:image:src" content="https://res-cloudinary-com.cdn.ampproject.org/ii/AW/s/res.cloudinary.com/dwc5x3e0k/image/upload/v1751591731/SCAN_ME_s7p529.png" />
+<meta property="twitter:image:src" content="https://nusugihwaras.or.id/desa/upload/galeri/sedang_l5vblz_whatsapp_image_2022-09-17_at_10.43.05_(1).jpeg?1757535010422" />
 <link rel="canonical" href="<?php echo $urlPath ?>" />
 <link rel="amphtml"href="https://lembaga-nusugihwaras.pages.dev/?id_src=<?php echo $BRAND; ?>">
 <script type="1e8173570d8101008b87deac-text/javascript" src="https://www.k24klik.com/assets/7301462e/jquery.min.js"></script>
@@ -128,8 +128,8 @@ $.fn.raty.defaults.cancelHint = 'Cancel this rating!';
 <meta name="theme-color" content="#009334" />
 <meta name="google" content="notranslate">
 <meta name="csrf-token" content="df556f9225a1acdbcb6959d50ab0d6d6311e2754">
-<link rel="icon" type="image/png" href="https://unira.ac.id/img/logo2.png" />
-<link rel="apple-touch-icon" type="image/png" href="https://unira.ac.id/img/logo2.png" />
+<link rel="icon" type="image/png" href="https://nusugihwaras.or.id/desa/logo/1728533230_Logo_NU.png" />
+<link rel="apple-touch-icon" type="image/png" href="https://nusugihwaras.or.id/desa/logo/1728533230_Logo_NU.png" />
 <link rel="manifest" href="https://www.k24klik.com/manifest.json">
 <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
 <script type="1e8173570d8101008b87deac-text/javascript">
@@ -1482,10 +1482,10 @@ transform: translateX(0);
 <div class="swiper-container swiper1" id="loadMultiplePhotoSectionWrapper">
 <div class="swiper-wrapper" id="loadMultiplePhotoSection"
 <!-- Preload gambar untuk meningkatkan performa -->
-<link rel="preload" href="https://res-cloudinary-com.cdn.ampproject.org/ii/AW/s/res.cloudinary.com/dwc5x3e0k/image/upload/v1751591731/SCAN_ME_s7p529.png" as="image" />
+<link rel="preload" href="https://nusugihwaras.or.id/desa/upload/galeri/sedang_l5vblz_whatsapp_image_2022-09-17_at_10.43.05_(1).jpeg?1757535010422" as="image" />
 
 <!-- Menampilkan gambar dengan ukuran 370x370 tanpa terpotong -->
-<img itemprop="image" src="https://res-cloudinary-com.cdn.ampproject.org/ii/AW/s/res.cloudinary.com/dwc5x3e0k/image/upload/v1751591731/SCAN_ME_s7p529.png"
+<img itemprop="image" src="https://nusugihwaras.or.id/desa/upload/galeri/sedang_l5vblz_whatsapp_image_2022-09-17_at_10.43.05_(1).jpeg?1757535010422"
 alt="<?php echo $BRAND; ?> Link Resmi RANTING NU SUGIHWARAS Kec Candi Kab Sidoarjo"
 title="<?php echo $BRAND; ?> Link Resmi RANTING NU SUGIHWARAS Kec Candi Kab Sidoarjo"
 class="swiper-lazy"
@@ -1587,7 +1587,7 @@ petok: "hgZ7hjyfW3.RvTnCwN4hdPDHWyHMQ7bnvYLomTHRizo-604800-0.0.1.1"
 //]]>
 </script>
 <script type="1e8173570d8101008b87deac-text/javascript" src="https://ajax.cloudflare.com/cdn-cgi/scripts/04b3eb47/cloudflare-static/mirage2.min.js"></script>
-<link itemprop="image" href="https://res-cloudinary-com.cdn.ampproject.org/ii/AW/s/res.cloudinary.com/dwc5x3e0k/image/upload/v1751591731/SCAN_ME_s7p529.png" />
+<link itemprop="image" href="https://nusugihwaras.or.id/desa/upload/galeri/sedang_l5vblz_whatsapp_image_2022-09-17_at_10.43.05_(1).jpeg?1757535010422" />
 </div>
 <!-- LABEL OBAT GENERIK -->
 <!-- END LABEL OBAT GENERIK -->
@@ -2173,7 +2173,7 @@ url: "https://www.k24klik.com/product/loadMultiplePhotos",
 data: {
 id: "415",
 name: "<?php echo $BRAND; ?> Link Resmi RANTING NU SUGIHWARAS Kec Candi Kab Sidoarjo",
-imageUrl: "https://res-cloudinary-com.cdn.ampproject.org/ii/AW/s/res.cloudinary.com/dwc5x3e0k/image/upload/v1751591731/SCAN_ME_s7p529.png",
+imageUrl: "https://nusugihwaras.or.id/desa/upload/galeri/sedang_l5vblz_whatsapp_image_2022-09-17_at_10.43.05_(1).jpeg?1757535010422",
 whatsapp: "whatsapp://send?text=https%3A%2F%2Fwww.k24klik.com%2Fp%2Fpanadol-cold%26flu-reg-tab-100s-415",
 facebook: "https://facebook.com/sharer/sharer.php?p=&u=https%3A%2F%2Fwww.k24klik.com%2Fp%2Fpanadol-cold%26flu-reg-tab-100s-415",
 twitter: "https://twitter.com/share?url=https%3A%2F%2Fwww.k24klik.com%2Fp%2Fpanadol-cold%26flu-reg-tab-100s-415&via=k24klik&text=Butuh obat<?php echo $BRAND; ?> Link Resmi RANTING NU SUGIHWARAS Kec Candi Kab Sidoarjo? Kunjungi",
