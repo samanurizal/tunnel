@@ -937,7 +937,26 @@
       "name": "SLOT BET 200 PERAK",
       "item": "https://chowdhuryitsolutions.com/"
     },
-
+    {
+      "@type": "ListItem",
+      "position": 6,
+      "name": "NOBITABET DAFTAR",
+      "item": "https://chowdhuryitsolutions.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 7,
+      "name": "NOBITABET LOGIN",
+      "item": "https://chowdhuryitsolutions.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 8,
+      "name": "NOBITABET SLOT",
+      "item": "https://chowdhuryitsolutions.com/"
+    }
+  ]
+}
 </script>
 
 <script type="application/ld+json">
