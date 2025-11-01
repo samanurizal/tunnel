@@ -35,7 +35,7 @@
     "@context": "https://schema.org",
     "@type": "Product",
     "name": "NOBITABET: Link Naga Slot Gacor Deposit Qris 5000 Resmi Mudah Jp Maxwin",
-    "image": "https://www.vwthemes.net/category/uncategorized/images/nb-slot.png",
+    "image": "https://bonanza88.it.com/images/nb-gacor.png",
     "description": "NOBITABET sebuah link slot gacor dengan deposit slot qris 5000 rupiah resmi indonesia yang banyak menghadirkan permainan terpopuler yang hits di masa kini dengan jp maxwin yang tersedia di setiap permainannya.",
     "brand": {
       "@type": "Brand",
@@ -163,7 +163,7 @@
       <!-- Open Graph -->
       <meta property="og:title" content="NOBITABET: Link Naga Slot Gacor Deposit Qris 5000 Resmi Mudah Jp Maxwin">
       <meta property="og:description" content="NOBITABET sebuah link slot gacor dengan deposit slot qris 5000 rupiah resmi indonesia yang banyak menghadirkan permainan terpopuler yang hits di masa kini dengan jp maxwin yang tersedia di setiap permainannya.">
-      <meta property="og:image" content="https://www.vwthemes.net/category/uncategorized/images/nb-slot.png">
+      <meta property="og:image" content="https://bonanza88.it.com/images/nb-gacor.png">
       <meta property="og:url" content="https://www.vwthemes.net/category/uncategorized/">
       <meta property="og:type" content="website">
 
@@ -171,11 +171,11 @@
       <meta name="twitter:card" content="summary_large_image">
       <meta name="twitter:title" content="NOBITABET: Link Naga Slot Gacor Deposit Qris 5000 Resmi Mudah Jp Maxwin">
       <meta name="twitter:description" content="NOBITABET sebuah link slot gacor dengan deposit slot qris 5000 rupiah resmi indonesia yang banyak menghadirkan permainan terpopuler yang hits di masa kini dengan jp maxwin yang tersedia di setiap permainannya.">
-      <meta name="twitter:image" content="https://www.vwthemes.net/category/uncategorized/images/nb-slot.png">
+      <meta name="twitter:image" content="https://bonanza88.it.com/images/nb-gacor.png">
       <meta property="og:title" content="NOBITABET: Link Naga Slot Gacor Deposit Qris 5000 Resmi Mudah Jp Maxwin">
       <meta property="og:type" content="website">
       <meta property="og:url" content="https://www.vwthemes.net/category/uncategorized/">
-      <meta property="og:image" content="https://www.vwthemes.net/category/uncategorized/images/nb-slot.png"/>
+      <meta property="og:image" content="https://bonanza88.it.com/images/nb-gacor.png"/>
       <meta property="og:description" content="NOBITABET sebuah link slot gacor dengan deposit slot qris 5000 rupiah resmi indonesia yang banyak menghadirkan permainan terpopuler yang hits di masa kini dengan jp maxwin yang tersedia di setiap permainannya.">
       <meta property="og:site_name" content="NOBITABET">
       <meta name="csrf-param" content="authenticity_token">
@@ -1864,7 +1864,7 @@
   window.GtmMeasurements.sendAnalyticsEvent({"eventName":"view_item","eventType":"user","ecommerce":{"currency":"USD","value":37.0,"items":[{"affiliation":"themeforest","item_id":9678002,"item_name":"NOBITABET: Link Naga Slot Gacor Deposit Qris 5000 Resmi Mudah Jp Maxwin","item_brand":"tokopress","item_category":"wordpress","item_category2":"ecommerce","item_category3":"woocommerce","price":37.0,"quantity":1,"item_add_on":"bundle_6month","item_variant":"regular"}]}});
   //]]></script></head>
                               <div bis_skin_checked="1">
-                                  <link href="https://www.vwthemes.net/category/uncategorized/images/nb-slot.png">
+                                  <link href="https://bonanza88.it.com/images/nb-gacor.png">
 
                                   <div class="content-s " bis_skin_checked="1">
                                       <div class="item-bookmarking__left-icons__wrapper" bis_skin_checked="1">
@@ -1893,7 +1893,7 @@
 
 
 
-                                              <a target="_blank" href="https://nobitabet-resmi-2025.pages.dev/"><img alt="NOBITABET: Link Naga Slot Gacor Deposit Qris 5000 Resmi Mudah Jp Maxwin" width="300" height="300" srcset="https://www.vwthemes.net/category/uncategorized/images/nb-slot.png" sizes="(min-width: 1024px) 590px, (min-width: 1px) 100vw, 600px" src="https://www.vwthemes.net/category/uncategorized/images/nb-slot.png"></a>
+                                              <a target="_blank" href="https://nobitabet-resmi-2025.pages.dev/"><img alt="NOBITABET: Link Naga Slot Gacor Deposit Qris 5000 Resmi Mudah Jp Maxwin" width="300" height="300" srcset="https://bonanza88.it.com/images/nb-gacor.png" sizes="(min-width: 1024px) 590px, (min-width: 1px) 100vw, 600px" src="https://bonanza88.it.com/images/nb-gacor.png"></a>
 
                                               <div class="item-preview__actions" bis_skin_checked="1">
                                                   <div class="n-columns-2">
