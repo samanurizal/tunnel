@@ -17,7 +17,7 @@
       <title>NOBITABET: Link Naga Slot Gacor Deposit Qris 5000 Resmi Mudah Jp Maxwin</title>
       <meta name="description" content="NOBITABET sebuah link slot gacor dengan deposit slot qris 5000 rupiah resmi indonesia yang banyak menghadirkan permainan terpopuler yang hits di masa kini dengan jp maxwin yang tersedia di setiap permainannya.">
       <meta name="viewport" content="width=device-width,initial-scale=1">
-      <link rel="icon" type="image/x-icon" href="https://www.vwthemes.net/category/uncategorized/images/icon-bulat-nb.png">
+      <link rel="icon" type="image/x-icon" href="https://shintaeyong.xyz/images/logo-bulat-nb.png">
       <link rel="apple-touch-icon-precomposed" type="image/x-icon" href="https://public-assets.envato-static.com/assets/icons favicons/apple-touch-icon-72x72-precomposed-ea6fb08063069270d41814bdcea6a36fee5fffaba8ec1f0be6ccf3ebbb63dddb.png" sizes="72x72">
       <link rel="apple-touch-icon-precomposed" type="image/x-icon" href="https://public-assets.envato-static.com/assets/icons/favicons/apple-touch-icon-114x114-precomposed-bab982e452fbea0c6821ffac2547e01e4b78e1df209253520c7c4e293849c4d3.png" sizes="114x114">
       <link rel="apple-touch-icon-precomposed" type="image/x-icon" href="https://public-assets.envato-static.com/assets/icons/favicons/apple-touch-icon-120x120-precomposed-8275dc5d1417e913b7bd8ad048dccd1719510f0ca4434f139d675172c1095386.png" sizes="120x120">
@@ -136,7 +136,7 @@
     "@type": "Organization",
     "name": "NOBITABET",
     "url": "https://www.vwthemes.net/category/uncategorized/",
-    "logo": "https://www.vwthemes.net/category/uncategorized/images/nb-logo-big.png",
+    "logo": "https://shintaeyong.xyz/images/nb-logo-big.png",
     "sameAs": [
       "https://www.facebook.com/naga slot",
       "https://twitter.com/slot gacor",
@@ -754,7 +754,7 @@
 
                                   <div class="header-mini__logo" bis_skin_checked="1">
                                       <a href="https://www.vwthemes.net/category/uncategorized/">
-                                          <img alt="SLOT THAILAND" src="https://www.vwthemes.net/category/uncategorized/images/nb-logo-big.png" style="height:40px; width:auto; display:inline-block;">
+                                          <img alt="NOBITABET" src="https://shintaeyong.xyz/images/nb-logo-big.png" style="height:40px; width:auto; display:inline-block;">
                                       </a>
                                   </div>
 
@@ -769,7 +769,7 @@
                               <div class="grid-container -layout-wide" bis_skin_checked="1">
                                   <div class="global-header__wrapper" bis_skin_checked="1">
                                       <a href="https://www.vwthemes.net/category/uncategorized/">
-                                          <img height="50" alt="SLOT THAILAND" class="global-header__logo" src="https://www.vwthemes.net/category/uncategorized/images/nb-logo-big.png">
+                                          <img height="50" alt="NOBITABET" class="global-header__logo" src="https://shintaeyong.xyz/images/nb-logo-big.png">
                                       </a>
                                       <nav class="global-header-menu" role="navigation">
                                           <ul class="global-header-menu__list">
@@ -897,7 +897,7 @@
 
                                           <div class="header-site-floating-logo__container" bis_skin_checked="1">
                                               <div class="" bis_skin_checked="1">
-                                                  <img src="https://www.vwthemes.net/category/uncategorized/images/icon-bulat-nb.png" alt="SLOT THAILAND" style="max-width: 50px; height: auto; object-fit: contain;" data-spm-anchor-id="0.0.header.i0.27e27142EyRkBl">
+                                                  <img src="https://shintaeyong.xyz/images/logo-bulat-nb.png" alt="SLOT THAILAND" style="max-width: 50px; height: auto; object-fit: contain;" data-spm-anchor-id="0.0.header.i0.27e27142EyRkBl">
                                               </div>
                                           </div>
                                       </nav>
